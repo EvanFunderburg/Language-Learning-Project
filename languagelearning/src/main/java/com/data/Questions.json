@@ -1,0 +1,108 @@
+[
+    {
+        "questionID": "6a0570de-e1f7-4d13-902e-c605720c513d",
+        "question": [
+            "6d84bf3d-016c-4d6e-b2ed-fec27c9a0ad0",
+            "51de9dfd-4cb5-4c1f-98a6-65ef613a8653",
+            "80555d95-6ba7-434d-8871-82e33e01f72c"
+        ],
+        "answer": "null",
+        "potentialAnswers": null,
+        "stageLevel": 1,
+        "numWords": 3,
+        "correctAnswer": "X"
+    },
+    {
+        "questionID": "5545a23d-3e31-42b0-b543-1e8992a91552",
+        "question": [
+            "51de9dfd-4cb5-4c1f-98a6-65ef613a8653",
+            "80555d95-6ba7-434d-8871-82e33e01f72c",
+            "6d84bf3d-016c-4d6e-b2ed-fec27c9a0ad0"
+        ],
+        "answer": "true",
+        "potentialAnswers": null,
+        "stageLevel": 1,
+        "numWords": -1,
+        "correctAnswer": "X"
+    },
+    {
+        "questionID": "78b70f74-cbe2-4b90-a9dd-237ca8c74221",
+        "question": [
+            "80555d95-6ba7-434d-8871-82e33e01f72c",
+            "6d84bf3d-016c-4d6e-b2ed-fec27c9a0ad0",
+            "51de9dfd-4cb5-4c1f-98a6-65ef613a8653"
+        ],
+        "answer": "null",
+        "potentialAnswers": [
+            "Naranja",
+            "Manzana",
+            "Uva",
+            "Plátano"
+        ],
+        "stageLevel": 1,
+        "numWords": -1,
+        "correctAnswer": "b"
+    },
+    {
+        "questionID": "2cc9012f-9b9f-4035-9b02-b6b2849a7b9d",
+        "question": [
+            "58511bfd-6ab2-4d6b-87a1-47259be9f074",
+            "72e90cc5-85d5-49b8-998a-5bca69c49f82",
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17",
+            "acb8d9c4-e580-4e32-8682-10ae57cdc5b6",
+            "c046c8ac-f029-46b5-963d-96eae584a810"
+        ],
+        "answer": "null",
+        "potentialAnswers": null,
+        "stageLevel": 1,
+        "numWords": 5,
+        "correctAnswer": "X"
+    },
+    {
+        "questionID": "9566e30b-9098-4552-9746-77b822504486",
+        "question": [
+            "7d837bfe-c187-4213-aa6c-863cd003f764",
+            "58511bfd-6ab2-4d6b-87a1-47259be9f074",
+            "78e4c8fd-b95f-46ab-9543-060bf6980436",
+            "72e90cc5-85d5-49b8-998a-5bca69c49f82"
+        ],
+        "answer": "null",
+        "potentialAnswers": null,
+        "stageLevel": 1,
+        "numWords": 4,
+        "correctAnswer": "X"
+    },
+    {
+        "questionID": "aa69c4e8-06a8-4d41-b1d2-b1b122533650",
+        "question": [
+            "7d837bfe-c187-4213-aa6c-863cd003f764",
+            "58511bfd-6ab2-4d6b-87a1-47259be9f074",
+            "78e4c8fd-b95f-46ab-9543-060bf6980436",
+            "58511bfd-6ab2-4d6b-87a1-47259be9f074"
+        ],
+        "answer": "true",
+        "potentialAnswers": null,
+        "stageLevel": 1,
+        "numWords": -1,
+        "correctAnswer": "X"
+    },
+    {
+        "questionID": "25eb478d-f4f4-48c5-8217-5bec6ff44648",
+        "question": [
+            "7d837bfe-c187-4213-aa6c-863cd003f764",
+            "58511bfd-6ab2-4d6b-87a1-47259be9f074",
+            "78e4c8fd-b95f-46ab-9543-060bf6980436",
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17"
+        ],
+        "answer": "null",
+        "potentialAnswers": [
+            "eins",
+            "zwei",
+            "drei",
+            "vier"
+        ],
+        "stageLevel": 1,
+        "numWords": -1,
+        "correctAnswer": "a"
+    }
+]

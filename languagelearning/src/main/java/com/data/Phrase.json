@@ -1,0 +1,307 @@
+[
+    {
+        "phrase": [
+            "58511bfd-6ab2-4d6b-87a1-47259be9f074",
+            "72e90cc5-85d5-49b8-998a-5bca69c49f82",
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17"
+        ],
+        "phraseID": "491dc528-d562-4daa-b00d-74647cc62ba3",
+        "definition": "one, two, three",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "72e90cc5-85d5-49b8-998a-5bca69c49f82",
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17",
+            "acb8d9c4-e580-4e32-8682-10ae57cdc5b6"
+        ],
+        "phraseID": "bb3c4ad8-f5d3-4ed3-b7f5-68ce32d7cd16",
+        "definition": "two, three, four",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17",
+            "acb8d9c4-e580-4e32-8682-10ae57cdc5b6",
+            "c046c8ac-f029-46b5-963d-96eae584a810"
+        ],
+        "phraseID": "38a7137e-6503-4446-aabb-e7b51c76167b",
+        "definition": "three, four, five",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17"
+        ],
+        "phraseID": "d0e4b19f-85e9-4afc-999c-441e58b9ab91",
+        "definition": "three",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "acb8d9c4-e580-4e32-8682-10ae57cdc5b6"
+        ],
+        "phraseID": "d0e4b19f-85e9-4afc-999c-441e58b9ab91",
+        "definition": "four",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "c046c8ac-f029-46b5-963d-96eae584a810"
+        ],
+        "phraseID": "c1cbb4b1-ce2a-4021-bc38-35ac0de9a8ef",
+        "definition": "five",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "321b3a56-3c9c-4804-a2fa-c396e6d697e7"
+        ],
+        "phraseID": "0e674683-1d19-4d6f-8e59-2d9713f0ebcd",
+        "definition": "seven",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "404ef8fa-1da3-4c41-8c30-1fa5b31699fa",
+            "e14641c2-9e2e-43a4-9649-7000f02289c8",
+            "001176d6-ff2c-4c23-b7fa-c5d82babff17",
+            "29d53bc3-28aa-426f-a9e4-a62567263ae5",
+            "6a9d001f-a660-44c3-87ec-cc1763ba7cbb",
+            "e6c0fdac-2d28-427f-a828-f64fb860bc4d"
+        ],
+        "phraseID": "695a69df-bf24-401a-a2f5-6a85ed5cc7d9",
+        "definition": "i eat three meals a day",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "903c2e22-17d3-44be-bf4b-cc8cb9d40e8a",
+            "d37840bf-6ea3-44f9-8c7b-7c61d50c653a",
+            "ece099e3-86fa-48dc-b272-2fb72de4f9d7",
+            "acb8d9c4-e580-4e32-8682-10ae57cdc5b6",
+            "a7543863-e659-4d59-982b-ff59f160e486"
+        ],
+        "phraseID": "29e5e330-e2c9-4894-b8b6-330d9134aa4b",
+        "definition": "a year has four seasons",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "404ef8fa-1da3-4c41-8c30-1fa5b31699fa",
+            "dd0c6956-92c8-418a-a502-72acd77c679e",
+            "c046c8ac-f029-46b5-963d-96eae584a810",
+            "89d675d9-720f-4826-ac92-ec2a962accaa",
+            "a91dcf56-eb44-495d-8d31-7c97b7c9823d",
+            "dbf9bea7-d6ce-40b6-a990-b34dc5217f5d",
+            "fcb0bd9e-a69b-44d3-9a6e-afb210ac1480"
+        ],
+        "phraseID": "d1331833-4d89-49b2-a3e0-9529dd5b88a2",
+        "definition": "i have five fingers on my hand",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "1d281bb4-be52-44bc-828b-49e003ebf225",
+            "592e34f9-214b-4c23-84e8-bdd6055ae0c6",
+            "ece099e3-86fa-48dc-b272-2fb72de4f9d7",
+            "321b3a56-3c9c-4804-a2fa-c396e6d697e7",
+            "2968680a-00ef-4156-91fa-c3dfc9d4fb5d"
+        ],
+        "phraseID": "fdea6a05-0dbb-4218-9d0a-28073a0e2ce8",
+        "definition": "a week has seven days",
+        "stageLevel": 1
+    },
+    {
+        "phrase": [
+            "bd39f902-c0fd-46b8-aa09-cdd1ac4c586b",
+            "35a9f14c-4f05-43a4-9433-8c194fb8fbb7",
+            "17bd5b7a-4ec1-4409-8f43-4986b4aa9bfd"
+        ],
+        "phraseID": "4e66bad3-5cb7-4191-8285-8dbbb1854c36",
+        "definition": "red green blue",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "a215471e-155d-4c2b-b64b-f69a18666dbc",
+            "3ce0e9bd-e66d-49df-b94c-3b2afc9eb6f2",
+            "84aee7c8-66ef-44f2-aa75-31b2b2562f23"
+        ],
+        "phraseID": "fbdc0455-612c-4408-ac22-672dacc204f7",
+        "definition": "yellow black white",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "bd39f902-c0fd-46b8-aa09-cdd1ac4c586b"
+        ],
+        "phraseID": "2dc9e7ca-1b2c-40f4-a00e-32fb909d9746",
+        "definition": "red",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "35a9f14c-4f05-43a4-9433-8c194fb8fbb7"
+        ],
+        "phraseID": "da292266-9370-449e-baf6-7b936994f1fa",
+        "definition": "green",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "17bd5b7a-4ec1-4409-8f43-4986b4aa9bfd"
+        ],
+        "phraseID": "8fdf5705-ebfb-4aee-946e-0a06e510fc91",
+        "definition": "blue",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "3ce0e9bd-e66d-49df-b94c-3b2afc9eb6f2"
+        ],
+        "phraseID": "ba0fb633-1811-4fb6-aa69-eb5f524672c6",
+        "definition": "black",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "f56d7d8f-c195-4f84-b546-d19e819d76dd",
+            "d6e8189b-bb3c-43f6-a026-30bf6fc98334",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "bd39f902-c0fd-46b8-aa09-cdd1ac4c586b"
+        ],
+        "phraseID": "849334b2-d9df-4329-a232-05287950c573",
+        "definition": "the rose is red",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "efd71cfe-9a9b-439e-a383-5fff7f2be130",
+            "d95146a9-be87-4e0e-bcdc-c1ed4180d44d",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "35a9f14c-4f05-43a4-9433-8c194fb8fbb7"
+        ],
+        "phraseID": "eb39a898-b1f5-477c-9620-59ab5bee55bf",
+        "definition": "the grass is green",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "051faf0b-4e5a-4d06-8957-3cd302d4e10e",
+            "1d50a6ce-f0d0-414c-af81-0ce4dcec20d0",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "17bd5b7a-4ec1-4409-8f43-4986b4aa9bfd"
+        ],
+        "phraseID": "e7918bba-3b18-464f-8850-3ad2169f845e",
+        "definition": "the sky is blue",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "f56d7d8f-c195-4f84-b546-d19e819d76dd",
+            "b91ae8a5-6b5e-40af-81cd-b78ab196ebf5",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "3ce0e9bd-e66d-49df-b94c-3b2afc9eb6f2"
+        ],
+        "phraseID": "a4a575a6-a5e1-4251-a25a-c217a53276cf",
+        "definition": "the road is black",
+        "stageLevel": 2
+    },
+    {
+        "phrase": [
+            "542b7de0-6c74-49bd-937b-0863e201571a",
+            "5cc9fcb4-0a94-4da8-b69f-86da64accb93",
+            "a4cfc214-4aa7-4c20-91f7-b0fb6bb036d1"
+        ],
+        "phraseID": "8e28261b-40dc-4c09-ba1b-6e0cc753bc62",
+        "definition": "apple banana orange",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "d6696d97-72b0-4fcf-9637-fc8e0dd813b1",
+            "746b026c-f45f-404d-8170-9a94f93d351b",
+            "54ebfd3a-ab30-4ddf-9c9b-a6429faddc92"
+        ],
+        "phraseID": "bf01e320-2853-4478-8681-360e55bc118a",
+        "definition": "bread cheese milk",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "542b7de0-6c74-49bd-937b-0863e201571a"
+        ],
+        "phraseID": "67b48c02-1f67-40d2-8232-24b5895c928d",
+        "definition": "apple",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "a43f1ec4-dfb8-4273-bf4a-35614c70e964"
+        ],
+        "phraseID": "0bb61496-9548-4691-92a3-3efd445643fa",
+        "definition": "pear",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "d6696d97-72b0-4fcf-9637-fc8e0dd813b1"
+        ],
+        "phraseID": "4404ac23-86de-41e9-906a-918cf78ae10d",
+        "definition": "bread",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "54ebfd3a-ab30-4ddf-9c9b-a6429faddc92"
+        ],
+        "phraseID": "8b07e486-c116-47a8-a1b9-a10959c16b5d",
+        "definition": "milk",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "051faf0b-4e5a-4d06-8957-3cd302d4e10e",
+            "542b7de0-6c74-49bd-937b-0863e201571a",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "bd39f902-c0fd-46b8-aa09-cdd1ac4c586b"
+        ],
+        "phraseID": "7ae20abc-96e1-4c8e-ba19-b7d7e642f9e5",
+        "definition": "the apple is red",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "f56d7d8f-c195-4f84-b546-d19e819d76dd",
+            "a43f1ec4-dfb8-4273-bf4a-35614c70e964",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "35a9f14c-4f05-43a4-9433-8c194fb8fbb7"
+        ],
+        "phraseID": "4ddb67d0-88f5-450a-b75f-0ca6e5b45dfd",
+        "definition": "the pear is green",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "efd71cfe-9a9b-439e-a383-5fff7f2be130",
+            "d6696d97-72b0-4fcf-9637-fc8e0dd813b1",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "b4d643f6-68c8-4451-8e32-28d6bbf23635"
+        ],
+        "phraseID": "05b8c25e-1d64-4459-ab4e-c2b02096ca27",
+        "definition": "the bread is soft",
+        "stageLevel": 3
+    },
+    {
+        "phrase": [
+            "f56d7d8f-c195-4f84-b546-d19e819d76dd",
+            "54ebfd3a-ab30-4ddf-9c9b-a6429faddc92",
+            "2a77501d-7997-42b1-b4cd-340acd443ab6",
+            "84aee7c8-66ef-44f2-aa75-31b2b2562f23"
+        ],
+        "phraseID": "2bff3b21-70b4-47b6-b237-3ecb7e500b96",
+        "definition": "the milk is white",
+        "stageLevel": 3
+    }
+]

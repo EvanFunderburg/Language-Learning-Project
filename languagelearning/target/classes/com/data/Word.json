@@ -1,0 +1,410 @@
+[
+    {
+        "learningLanguage": "GER",
+        "wordID": "6d84bf3d-016c-4d6e-b2ed-fec27c9a0ad0",
+        "learningDefinition": "hallo",
+        "phonetics": "Ha-llo",
+        "baseLanguage": "ENG",
+        "baseDefinition": "hello"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "51de9dfd-4cb5-4c1f-98a6-65ef613a8653",
+        "learningDefinition": "essen",
+        "phonetics": "es-ssen",
+        "baseLanguage": "ENG",
+        "baseDefinition": "food"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "80555d95-6ba7-434d-8871-82e33e01f72c",
+        "learningDefinition": "haus",
+        "phonetics": "Hauz",
+        "baseLanguage": "ENG",
+        "baseDefinition": "house"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "3a5837a9-2f84-49f5-a2ca-ef6a57552fb7",
+        "learningDefinition": "wort",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "word"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "58511bfd-6ab2-4d6b-87a1-47259be9f074",
+        "learningDefinition": "eins",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "one"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "72e90cc5-85d5-49b8-998a-5bca69c49f82",
+        "learningDefinition": "zwei",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "two"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "001176d6-ff2c-4c23-b7fa-c5d82babff17",
+        "learningDefinition": "drei",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "three"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "acb8d9c4-e580-4e32-8682-10ae57cdc5b6",
+        "learningDefinition": "vier",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "four"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "c046c8ac-f029-46b5-963d-96eae584a810",
+        "learningDefinition": "funf",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "five"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "7d837bfe-c187-4213-aa6c-863cd003f764",
+        "learningDefinition": "stufe",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "stage"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "78e4c8fd-b95f-46ab-9543-060bf6980436",
+        "learningDefinition": "frage",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "question"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "321b3a56-3c9c-4804-a2fa-c396e6d697e7",
+        "learningDefinition": "sieben",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "seven"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "404ef8fa-1da3-4c41-8c30-1fa5b31699fa",
+        "learningDefinition": "ich",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "i"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "e14641c2-9e2e-43a4-9649-7000f02289c8",
+        "learningDefinition": "esse",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "eat"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "29d53bc3-28aa-426f-a9e4-a62567263ae5",
+        "learningDefinition": "mahlzeiten",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "meals"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "6a9d001f-a660-44c3-87ec-cc1763ba7cbb",
+        "learningDefinition": "am",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "on"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "e6c0fdac-2d28-427f-a828-f64fb860bc4d",
+        "learningDefinition": "tag",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "day"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "903c2e22-17d3-44be-bf4b-cc8cb9d40e8a",
+        "learningDefinition": "ein",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "a"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d37840bf-6ea3-44f9-8c7b-7c61d50c653a",
+        "learningDefinition": "jahr",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "year"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "ece099e3-86fa-48dc-b272-2fb72de4f9d7",
+        "learningDefinition": "hat",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "has"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "a7543863-e659-4d59-982b-ff59f160e486",
+        "learningDefinition": "jahreszeiten",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "seasons"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "dd0c6956-92c8-418a-a502-72acd77c679e",
+        "learningDefinition": "habe",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "have"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "89d675d9-720f-4826-ac92-ec2a962accaa",
+        "learningDefinition": "finger",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "finger"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "a91dcf56-eb44-495d-8d31-7c97b7c9823d",
+        "learningDefinition": "an",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "to"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "dbf9bea7-d6ce-40b6-a990-b34dc5217f5d",
+        "learningDefinition": "meiner",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "mine"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "fcb0bd9e-a69b-44d3-9a6e-afb210ac1480",
+        "learningDefinition": "hand",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "hand"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "1d281bb4-be52-44bc-828b-49e003ebf225",
+        "learningDefinition": "eine",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "one"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "592e34f9-214b-4c23-84e8-bdd6055ae0c6",
+        "learningDefinition": "woche",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "week"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "2968680a-00ef-4156-91fa-c3dfc9d4fb5d",
+        "learningDefinition": "tage",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "days"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "bd39f902-c0fd-46b8-aa09-cdd1ac4c586b",
+        "learningDefinition": "rot",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "red"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "35a9f14c-4f05-43a4-9433-8c194fb8fbb7",
+        "learningDefinition": "grun",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "green"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "17bd5b7a-4ec1-4409-8f43-4986b4aa9bfd",
+        "learningDefinition": "blau",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "blue"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "a215471e-155d-4c2b-b64b-f69a18666dbc",
+        "learningDefinition": "gelb",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "yellow"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "3ce0e9bd-e66d-49df-b94c-3b2afc9eb6f2",
+        "learningDefinition": "schwarz",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "black"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "84aee7c8-66ef-44f2-aa75-31b2b2562f23",
+        "learningDefinition": "weiss",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "white"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "f56d7d8f-c195-4f84-b546-d19e819d76dd",
+        "learningDefinition": "die",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "the"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d6e8189b-bb3c-43f6-a026-30bf6fc98334",
+        "learningDefinition": "rose",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "rose"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "2a77501d-7997-42b1-b4cd-340acd443ab6",
+        "learningDefinition": "ist",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "is"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "efd71cfe-9a9b-439e-a383-5fff7f2be130",
+        "learningDefinition": "das",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "the"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d95146a9-be87-4e0e-bcdc-c1ed4180d44d",
+        "learningDefinition": "gras",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "grass"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "051faf0b-4e5a-4d06-8957-3cd302d4e10e",
+        "learningDefinition": "der",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "the"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "1d50a6ce-f0d0-414c-af81-0ce4dcec20d0",
+        "learningDefinition": "himmel",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "heaven"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "b91ae8a5-6b5e-40af-81cd-b78ab196ebf5",
+        "learningDefinition": "strasse",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "street"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "542b7de0-6c74-49bd-937b-0863e201571a",
+        "learningDefinition": "apfel",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "apple"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "5cc9fcb4-0a94-4da8-b69f-86da64accb93",
+        "learningDefinition": "banane",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "banana"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "a4cfc214-4aa7-4c20-91f7-b0fb6bb036d1",
+        "learningDefinition": "orange",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "orange"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d6696d97-72b0-4fcf-9637-fc8e0dd813b1",
+        "learningDefinition": "brot",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "bread"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "746b026c-f45f-404d-8170-9a94f93d351b",
+        "learningDefinition": "kase",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "cheese"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "54ebfd3a-ab30-4ddf-9c9b-a6429faddc92",
+        "learningDefinition": "milch",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "milk"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "a43f1ec4-dfb8-4273-bf4a-35614c70e964",
+        "learningDefinition": "birne",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "pear"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "b4d643f6-68c8-4451-8e32-28d6bbf23635",
+        "learningDefinition": "weich",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "soft"
+    }
+]

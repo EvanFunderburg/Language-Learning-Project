@@ -9,15 +9,15 @@ package com.model;
  */
 public abstract class DataConstants {
     // data constants for user
-    protected static final String USER_FILE_NAME = "Narriation/speak/json/User.json";
+    protected static final String USER_FILE_NAME = "languagelearning/src/main/java/com/data/User.json";
     protected static final String USER_FILE_NAME_JUNIT = "/data/User.json";
-    protected static final String USER2_FILE_NAME = "Narriation/speak/json/User2.json";
-	protected static final String USER = "user";
+    protected static final String USER2_FILE_NAME = "languagelearning/src/main/java/com/data/User2.json";
+	  protected static final String USER = "user";
     protected static final String USER_ID = "ID";
     protected static final String USER_FRIENDS = "friends";
-	protected static final String USER_FIRST_NAME = "firstName";
-	protected static final String USER_LAST_NAME = "lastName";
-	protected static final String USER_USERNAME = "username";
+	  protected static final String USER_FIRST_NAME = "firstName";
+	  protected static final String USER_LAST_NAME = "lastName";
+	  protected static final String USER_USERNAME = "username";
     protected static final String USER_PASSWORD = "password";
     protected static final String USER_QUESTIONS_CORRECT = "questionsCorrect";
     protected static final String USER_QUESTIONS_WRONG = "questionsWrong";
@@ -29,7 +29,7 @@ public abstract class DataConstants {
     protected static final String LANGUAGE_TRACK_STAGE_LEVEL = "stageLevel";
     protected static final String LANGUAGE_TRACK_CURRENT_STAGE = "currentStage";
 
-    protected static final String STAGE_FILE_NAME = "Narriation/speak/json/Stage.json";
+    protected static final String STAGE_FILE_NAME = "languagelearning/src/main/java/com/data/Stage.json";
     protected static final String STAGE_FILE_NAME_JUNIT = "/data/Stage.json";
     protected static final String STAGE_LEVEL = "stageLevel";
     protected static final String STAGE_STORY = "story";
@@ -42,7 +42,7 @@ public abstract class DataConstants {
     protected static final String LESSON_CURRENT_QUESTION = "currentQuestion";
     protected static final String LESSON_STAGE_LEVEL = "stageLevel";
 
-    protected static final String WORD_FILE_NAME = "Narriation/speak/json/Word.json";
+    protected static final String WORD_FILE_NAME = "languagelearning/src/main/java/com/data/Word.json";
     protected static final String WORD_FILE_NAME_JUNIT = "/data/Word.json";
     protected static final String WORD_PHONETICS = "phonetics";
     protected static final String WORD_LEARNING_LANG = "learningLanguage";
@@ -59,7 +59,7 @@ public abstract class DataConstants {
     protected static final String STORY_STAGE_LEVEL = "stageLevel";
     protected static final String STORY_TITLE = "title";
 
-    protected static final String QUESTION_FILE_NAME = "Narriation/speak/json/Questions.json";
+    protected static final String QUESTION_FILE_NAME = "languagelearning/src/main/java/com/data/Questions.json";
     protected static final String QUESTION_QUESTION = "question";
     protected static final String QUESTION_ID = "questionID";
     protected static final String QUESTION_STAGE_LEVEL = "stageLevel";
@@ -71,7 +71,7 @@ public abstract class DataConstants {
 
     protected static final String QUESTION_TRUE_FALSE_ANSWER = "answer";
 
-    protected static final String PHRASE_FILE_NAME = "Narriation/speak/json/Phrase.json";
+    protected static final String PHRASE_FILE_NAME = "languagelearning/src/main/java/com/data/Phrase.json";
     protected static final String PHRASE_FILE_NAME_JUNIT = "/data/Phrase.json";
     protected static final String PHRASE_PHRASE = "phrase";
     protected static final String PHRASE_ID = "phraseID";

@@ -1,0 +1,106 @@
+[
+    {
+        "questionsWrong": 6,
+        "firstName": "Evan",
+        "lastName": "Funderburg",
+        "password": "EvanRocks#6",
+        "struggleList": [
+            "491dc528-d562-4daa-b00d-74647cc62ba3"
+        ],
+        "currency": 100,
+        "ID": "120ead04-ba42-4ff7-94f0-c5cf3ac8bcb5",
+        "questionsCorrect": 21,
+        "friends": [],
+        "LanguageTracks": [
+            {
+                "currentStage": {
+                    "stageLevel": 1,
+                    "story": {
+                        "storyID": "9770baf4-f195-4114-b6ae-1bd14c1b80a2",
+                        "book": [
+                            {
+                                "image": "filepath",
+                                "sentences": [
+                                    "491dc528-d562-4daa-b00d-74647cc62ba3"
+                                ],
+                                "pageNum": 1
+                            },
+                            {
+                                "image": "filepath",
+                                "sentences": [
+                                    "d0e4b19f-85e9-4afc-999c-441e58b9ab91"
+                                ],
+                                "pageNum": 2
+                            },
+                            {
+                                "image": "filepath",
+                                "sentences": [
+                                    "38a7137e-6503-4446-aabb-e7b51c76167b"
+                                ],
+                                "pageNum": 3
+                            }
+                        ],
+                        "totalPages": 3,
+                        "stageLevel": 1,
+                        "page": 0,
+                        "title": "Stage 1 story"
+                    }
+                },
+                "learningLanguage": "GER",
+                "stageLevel": 1
+            }
+        ],
+        "username": "efundy21"
+    },
+    {
+        "questionsWrong": 53,
+        "firstName": "Tammy",
+        "lastName": "Tomacka",
+        "password": "BabyGronk",
+        "struggleList": ["4e66bad3-5cb7-4191-8285-8dbbb1854c36","fbdc0455-612c-4408-ac22-672dacc204f7","2dc9e7ca-1b2c-40f4-a00e-32fb909d9746","da292266-9370-449e-baf6-7b936994f1fa","8fdf5705-ebfb-4aee-946e-0a06e510fc91","ba0fb633-1811-4fb6-aa69-eb5f524672c6","849334b2-d9df-4329-a232-05287950c573","eb39a898-b1f5-477c-9620-59ab5bee55bf","e7918bba-3b18-464f-8850-3ad2169f845e","a4a575a6-a5e1-4251-a25a-c217a53276cf"],
+        "currency": 1000,
+        "ID": "e96ec222-c098-4fd8-a678-9deea968e473",
+        "questionsCorrect": 62,
+        "friends": [],
+        "LanguageTracks": [
+            {
+                "currentStage": {
+                    "stageLevel": 1,
+                    "story": {
+                        "storyID": "9770baf4-f195-4114-b6ae-1bd14c1b80a2",
+                        "book": [
+                            {
+                                "image": "filepath",
+                                "sentences": [
+                                    "491dc528-d562-4daa-b00d-74647cc62ba3"
+                                ],
+                                "pageNum": 1
+                            },
+                            {
+                                "image": "filepath",
+                                "sentences": [
+                                    "d0e4b19f-85e9-4afc-999c-441e58b9ab91"
+                                ],
+                                "pageNum": 2
+                            },
+                            {
+                                "image": "filepath",
+                                "sentences": [
+                                    "38a7137e-6503-4446-aabb-e7b51c76167b"
+                                ],
+                                "pageNum": 3
+                            }
+                        ],
+                        "totalPages": 3,
+                        "stageLevel": 1,
+                        "page": 0,
+                        "title": "Stage 1 story"
+                    }
+                },
+                "learningLanguage": "GER",
+                "stageLevel": 1
+            }
+        ],
+        "username": "ttomacka"
+    }
+]

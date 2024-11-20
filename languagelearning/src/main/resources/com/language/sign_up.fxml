@@ -10,9 +10,9 @@
    <children>
       <Label text="Sign Up Page" />
       <Label text="UserName" />
-      <TextArea prefHeight="200.0" prefWidth="200.0" scaleY="0.2" />
+      <TextArea prefHeight="20.0" prefWidth="200.0" scaleY="1" />
       <Label text="Password" />
-      <TextArea prefHeight="200.0" prefWidth="200.0" scaleY="0.2" />
+   <TextArea prefHeight="20.0" prefWidth="200.0" scaleY="1" />
       <Button fx:id="primaryButton" onAction="#switchToEntryPage" text="Sign Up" />
    </children>
    <padding>

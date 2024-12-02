@@ -28,6 +28,7 @@ public class Lesson {
         this.stageLevel = stageLevel;
         this.answeredQuestions = new ArrayList<>();
         this.score = 0;
+        setCurrentQuestion(0);
     }
 
     /**
@@ -86,6 +87,11 @@ public class Lesson {
      */
     public Question getCurrentQuestion() {
         return currentQuestion;
+    }
+
+    public void setCurrentQuestion(int n) {
+        if(n < this.questions.size())
+            this.currentQuestion = this.questions.get(n);
     }
     
     /**

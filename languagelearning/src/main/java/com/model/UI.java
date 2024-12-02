@@ -68,7 +68,8 @@ public class UI {
             System.out.println("sign in failure :(");
         }
         facade.chooseLanguage("german");
-        facade.startLesson();
+        System.out.println(facade.startLesson());
+        System.out.println(facade.getCurrentQuestionString());
         //looks at progress screen (sees struggle word/phrase, current lesson, % of course)
         facade.checkProgress();
         facade.logout();

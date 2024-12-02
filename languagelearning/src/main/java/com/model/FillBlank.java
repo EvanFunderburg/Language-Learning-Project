@@ -61,5 +61,18 @@ public class FillBlank extends Question{
         }
         return phrase + "\n" + "What word fits in the blank that means: " + correctword.getBaseDefinition() + "?";
     }
+
+    public String getQuestionAsString() {
+        String phrase ="";
+        for(Word a: this.question.getPhrase()){
+            if(!a.equals(this.correctword)){
+                phrase = phrase + a.getLearningDefinition() + " ";
+            }
+            else{
+                phrase = phrase + "___________ ";
+            }
+        }
+        return phrase;
+    }
     
 }

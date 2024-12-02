@@ -63,4 +63,8 @@ public class TrueFalse extends Question {
     public String getTFAnswerAsString() {
         return correctAnswer ? "true" : "false";
     }
+
+    public String getQuestionAsString() {
+        return toString();
+    }
 }

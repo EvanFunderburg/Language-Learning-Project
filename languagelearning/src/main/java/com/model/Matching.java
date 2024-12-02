@@ -85,4 +85,16 @@ public class Matching extends Question{
     public int getMatchingNumWords() {
         return numWords;
     }
+
+    public String getQuestionAsString() {
+        return "\nNumber of words to match: " + numWords;
+    }
+    public ArrayList<String> getBaseSet() {
+        return baseSet;
+    }
+    public ArrayList<String> getLearningSet() {
+        return learningSet;
+    }
+
+    
 }

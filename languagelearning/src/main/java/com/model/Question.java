@@ -122,6 +122,8 @@ public abstract class Question {
         }
         return questionString;
     }
+
+    public abstract String getQuestionAsString();
     /**
      * Prompts the user for a response to the question and checks if it is correct.
      * This method is abstract and must be implemented by subclasses to handle the specific question type.

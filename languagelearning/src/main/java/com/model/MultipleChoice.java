@@ -70,4 +70,10 @@ public class MultipleChoice extends Question {
     public char getMCCorrectAnswer() {
         return this.correctAnswer;
     }
+    /**
+     * Gets only the question as a string. None of part of the answer choices
+     */
+    public String getQuestionAsString() {
+        return "What is the defintion of *" + question.getPhrase().get(0).getLearningDefinition() + "*\n";
+    }
 }

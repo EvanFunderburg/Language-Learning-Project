@@ -136,9 +136,34 @@ public class LanguageAppFacade {
     }
 
     /**
-     * Starts a new lesson for the current user
+     * Starts a new lesson for the current user and returns the study sheet
      */
-    public void startLesson() {
+    public String startLesson() {
+        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getStudySheet();
+    }
+
+    public String getCurrentQuestionString() {
+        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionAsString();
+    }
+
+    public String getCurrentQuestionType() {
+        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionType();
+    }
+
+    public boolean answerCurrentQuestion(String answer) {
+        boolean correct = user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().promptUserResponse(answer);
+        if(correct)
+            user.getCurrentLanguageTrack().getCurrentStage().getLesson().questionCorrect();
+        else
+            user.getCurrentLanguageTrack().getCurrentStage().getLesson().questionIncorrect();
+        return correct;
+    }
+
+    public boolean isLessonFinished(){
+        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().isLessonComplete();
+    }
+
+    /*public void startLesson() {
         if (user != null) {
             System.out.println("Starting lesson ");
             Stage userStage = user.getCurrentLanguageTrack().getCurrentStage();
@@ -169,7 +194,7 @@ public class LanguageAppFacade {
         } else {
             System.out.println("User not found. Please sign in first.");
         }
-    }
+    }*/
 
     /**
      * Starts a lesson focused on phrases the user has struggled with

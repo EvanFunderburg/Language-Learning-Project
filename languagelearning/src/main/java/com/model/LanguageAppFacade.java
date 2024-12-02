@@ -13,6 +13,8 @@ import java.util.ArrayList;
  * @author Evan Funderburg
  */
 public class LanguageAppFacade {
+    /**The current instance of the Facade */
+    private static LanguageAppFacade facade;
     /** The currently logged in user */
     private User user;
     /** List of all users in the system */
@@ -27,8 +29,15 @@ public class LanguageAppFacade {
     /**
      * Constructs a new LanguageAppFacade object
      */
-    public LanguageAppFacade() {
+    private LanguageAppFacade() {
         this.userList = UserList.getInstance();
+        this.wordList = WordList.getInstance();
+    }
+
+    public static LanguageAppFacade getInstance(){
+        if(facade == null)
+            facade = new LanguageAppFacade();
+        return facade;
     }
 
     /**

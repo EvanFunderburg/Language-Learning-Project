@@ -2,15 +2,51 @@
 package com.controllers;
 
 import java.io.IOException;
-import javafx.fxml.FXML;
+import java.util.Locale.LanguageRange;
 
 import com.language.App;
+import com.model.LanguageAppFacade;
 import com.narration.*;
 
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+
 public class SignUpController {
+
     @FXML
-    private void switchToEntryPage() throws IOException {
-        // Narriator.playSound("1 2 3 4 5 6");
-        App.setRoot("entry_page");
+    private Label lbl_error;
+
+    @FXML
+    private Button primaryButton;
+
+    @FXML
+    private TextArea txt_password;
+
+    @FXML
+    private TextArea txt_username;
+
+    @FXML
+    private TextArea txt_firstname;
+
+    @FXML
+    private TextArea txt_lastname;
+
+    @FXML
+    void switchToUserHomePage(ActionEvent event) throws IOException {
+        String username = txt_username.getText();
+        String password = txt_password.getText();
+        String firstname = txt_firstname.getText();
+        String lastname = txt_lastname.getText();
+
+        LanguageAppFacade facade = LanguageAppFacade.getInstance();
+        if(!facade.signUp(firstname, lastname, username, password)){
+            lbl_error.setText("Invalid login credentials.");
+            return;
+        }
+
+        App.setRoot("primary");
     }
 }

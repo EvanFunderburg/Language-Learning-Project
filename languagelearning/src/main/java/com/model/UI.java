@@ -39,7 +39,7 @@ public class UI {
             String uname = scan.next();
             System.out.println("please input a password");
             String psw = scan.next();
-            LanguageAppFacade facade = new LanguageAppFacade();
+            LanguageAppFacade facade = LanguageAppFacade.getInstance();
             if(facade.signUp(name,lname,uname,psw)){
                 System.out.println("account made successfully");
                 break;
@@ -55,7 +55,7 @@ public class UI {
      * starts a lesson, and reviews their progress. Finally, the user logs out.
      */
     public static void scenario2() {
-        LanguageAppFacade facade = new LanguageAppFacade();
+        LanguageAppFacade facade = LanguageAppFacade.getInstance();
         Scanner scan = new Scanner(System.in);
         System.out.println("please input a username");
         String uname = "ttomacka";
@@ -83,7 +83,7 @@ public class UI {
      * Finally, the user logs out.
      */
     public static void scenario3() {
-        LanguageAppFacade facade = new LanguageAppFacade();
+        LanguageAppFacade facade = LanguageAppFacade.getInstance();
         Scanner scan = new Scanner(System.in);
         System.out.println("please input a username");
         String uname = "ttomacka"; // scan.next();

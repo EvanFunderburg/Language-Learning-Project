@@ -35,7 +35,12 @@ public class Matching extends Question{
         this.learningSet = new ArrayList<String>();
         this.correctPairs = new ArrayList<String>();
         this.questionType = "matching";
-        for (Word word : question.getPhrase()) {
+        // for (Word word : question.getPhrase()) {
+        //     baseSet.add(word.getBaseDefinition());
+        //     learningSet.add(word.getLearningDefinition());
+        // }
+        for(int i = 0; i < numWords; i++){
+            Word word = question.getPhrase().get(i);
             baseSet.add(word.getBaseDefinition());
             learningSet.add(word.getLearningDefinition());
         }

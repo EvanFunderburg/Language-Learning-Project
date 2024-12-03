@@ -95,7 +95,7 @@ public abstract class Question {
             else {
                 // create a matching question
                 int numWords = 0;
-                while(numWords < 5 && numWords < phrase.getPhrase().size()){
+                while(numWords < 3 && numWords < phrase.getPhrase().size()){
                     seq.add(phrase.getPhrase().get(numWords));
                     numWords++;
                 }

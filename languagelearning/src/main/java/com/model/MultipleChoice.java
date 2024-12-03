@@ -76,4 +76,11 @@ public class MultipleChoice extends Question {
     public String getQuestionAsString() {
         return "What is the defintion of *" + question.getPhrase().get(0).getLearningDefinition() + "*\n";
     }
+
+    public String getAnwersChoicesAsString() {
+        String s1 ="";
+        for(String s:potentialAnswers)
+            s1+=s+"#";
+        return s1;
+    }
 }

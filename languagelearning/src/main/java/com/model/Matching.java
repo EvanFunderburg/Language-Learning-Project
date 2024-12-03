@@ -96,5 +96,17 @@ public class Matching extends Question{
         return learningSet;
     }
 
+    public String getAnwersChoicesAsString() {
+        String s1 = "";
+        for(String s : baseSet) {
+            s1+=s+"#";
+        }
+        s1 += "!";
+        for(String s : learningSet) {
+            s1+=s+"#";
+        }
+        return s1;
+    }
+
     
 }

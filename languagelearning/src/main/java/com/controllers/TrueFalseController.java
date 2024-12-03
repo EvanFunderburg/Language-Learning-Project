@@ -23,8 +23,9 @@ public class TrueFalseController implements Initializable {
     @FXML private Label lbl_title;
     @FXML private Label lbl_type;
     @FXML private Label lbl_question;
-
+    @FXML private Label lbl_feedback;
     private LanguageAppFacade facade;
+
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
@@ -36,15 +37,36 @@ public class TrueFalseController implements Initializable {
             facade.answerCurrentQuestion("null");
         }
         
-        
         lbl_title.setText("Welcome " + user.getFirstName() + " " + user.getLastName());
         lbl_question.setText(facade.getCurrentQuestionString());
     }   
     @FXML
     void switchToUserHomePage(ActionEvent event) throws IOException {
         
-
         App.setRoot("primary");
+    }
+
+    @FXML
+    void clickedTrueButton(ActionEvent event) throws IOException {
+        
+
+        answerQuestion("true");
+        
+    }
+
+    @FXML
+    void clickedFalseButton(ActionEvent event) throws IOException {
+        
+        answerQuestion("false");
+    }
+
+    private void answerQuestion(String answer) {
+        if (facade.answerCurrentQuestion(answer))
+            lbl_feedback.setText("Correct! Nice job");
+        else
+            lbl_feedback.setText("Incorrect :(");
+
+        facade.resetLesson();
     }
     
 }

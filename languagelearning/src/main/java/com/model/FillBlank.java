@@ -74,5 +74,9 @@ public class FillBlank extends Question{
         }
         return phrase;
     }
+
+    public String getAnwersChoicesAsString() {
+        return "Nothing";
+    }
     
 }

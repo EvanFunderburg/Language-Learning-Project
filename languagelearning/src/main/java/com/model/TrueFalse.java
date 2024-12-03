@@ -67,4 +67,8 @@ public class TrueFalse extends Question {
     public String getQuestionAsString() {
         return toString();
     }
+
+    public String getAnwersChoicesAsString() {
+        return "Nothing";
+    }
 }

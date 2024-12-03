@@ -23,6 +23,7 @@ public class MatchingController implements Initializable {
     @FXML private Label lbl_title;
     @FXML private Label lbl_type;
     @FXML private Label lbl_question;
+    @FXML private Label lbl_feedback;
 
     private LanguageAppFacade facade;
     @Override
@@ -39,6 +40,20 @@ public class MatchingController implements Initializable {
         
         lbl_title.setText("Welcome " + user.getFirstName() + " " + user.getLastName());
         lbl_question.setText(facade.getCurrentQuestionString());
+        String answers = facade.getAnswerChoices();
+        String[] temp = answers.split("!");
+        System.out.println(answers);
+        for(String s : temp)
+            System.out.println(s);
+        String[] baseSet = temp[0].split("#");
+        String[] learningSet = temp[1].split("#");
+        System.out.println("Base set");
+        for(String s : baseSet)
+            System.out.println(s);
+        System.out.println("Learning set");
+        for(String s : learningSet)
+            System.out.println(s);
+        lbl_feedback.setText(temp[0] +"\n"+temp[1]);
     }   
     @FXML
     void switchToUserHomePage(ActionEvent event) throws IOException {

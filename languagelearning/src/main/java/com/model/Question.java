@@ -124,6 +124,10 @@ public abstract class Question {
     }
 
     public abstract String getQuestionAsString();
+
+    public abstract String getAnwersChoicesAsString();
+
+
     /**
      * Prompts the user for a response to the question and checks if it is correct.
      * This method is abstract and must be implemented by subclasses to handle the specific question type.
@@ -131,6 +135,7 @@ public abstract class Question {
      * @param answer The user's response to the question.
      * @return True if the answer is correct, false otherwise.
      */
+    
     public abstract boolean promptUserResponse(String answer);
 
     /**

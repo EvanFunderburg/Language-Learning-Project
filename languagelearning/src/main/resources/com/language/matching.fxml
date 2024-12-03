@@ -11,6 +11,8 @@
       <Label fx:id="lbl_title" layoutX="24.0" layoutY="24.0" text="Welcome"/>
       <Label fx:id="lbl_type" layoutX="24.0" layoutY="24.0" text="Matching"/>
       <Label fx:id="lbl_question" layoutX="24.0" layoutY="24.0" text=""/>
+      <Label fx:id="lbl_feedback" layoutX="24.0" layoutY="24.0" text=""/>
+      <Button fx:id="returnHomeButton" text="Advance to next question" onAction="#switchToUserHomePage"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

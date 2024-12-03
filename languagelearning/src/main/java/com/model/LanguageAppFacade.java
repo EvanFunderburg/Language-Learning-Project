@@ -159,6 +159,10 @@ public class LanguageAppFacade {
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionType();
     }
 
+    public String getAnswerChoices(){
+        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getAnwersChoicesAsString();
+    }
+
     public boolean answerCurrentQuestion(String answer) {
         boolean correct = user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().promptUserResponse(answer);
         if(correct)
@@ -170,6 +174,10 @@ public class LanguageAppFacade {
 
     public boolean isLessonFinished(){
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().isLessonComplete();
+    }
+
+    public void resetLesson(){
+        user.getCurrentLanguageTrack().getCurrentStage().getLesson().resetQuestions();
     }
 
     /*public void startLesson() {

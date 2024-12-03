@@ -33,8 +33,6 @@ public class MultipleChoiceController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
-        facade.signIn("ttomacka", "BabyGronk");
-        User user = facade.getUser();
         facade.chooseLanguage("german");
         facade.startLesson();
         while(!facade.isLessonFinished() && !facade.getCurrentQuestionType().equals("multiple_choice")) {
@@ -48,7 +46,7 @@ public class MultipleChoiceController implements Initializable {
         btn_answerB.setText(answers[1]);
         btn_answerC.setText(answers[2]);
         btn_answerD.setText(answers[3]);
-        lbl_title.setText("Welcome " + user.getFirstName() + " " + user.getLastName());
+        lbl_title.setText("Welcome " + facade.getUser().getFirstName() + " " + facade.getUser().getLastName());
         lbl_question.setText(facade.getCurrentQuestionString());
     }   
     @FXML

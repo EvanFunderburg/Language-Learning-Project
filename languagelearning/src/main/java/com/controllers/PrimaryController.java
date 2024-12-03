@@ -58,5 +58,9 @@ public class PrimaryController implements Initializable{
     private void switchToIncorrect() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
         App.setRoot("incorrect_answer");
+    }@FXML
+    private void switchToStorySelect() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("story_select");
     }
 }

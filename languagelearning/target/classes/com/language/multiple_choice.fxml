@@ -16,6 +16,7 @@
       <Button fx:id="btn_answerC" text="" onAction="#clickedButtonC"/>
       <Button fx:id="btn_answerD" text="" onAction="#clickedButtonD"/>
       <Label fx:id="lbl_feedback" layoutX="24.0" layoutY="24.0" text=""/>
+      <Button fx:id="returnHomeButton" text="Exit" onAction="#switchToUserHomePage"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

@@ -4,7 +4,7 @@
     /*-fx-base: #87c7d1;*/
     /*-fx-background: #f2f2f2;*/
     -fx-text-fill: #fff;
-    -fx-background-image: url("../images/background.jpg");
+    /*-fx-background-image: url("../images/background.jpg");*/
   }
   
   .label {

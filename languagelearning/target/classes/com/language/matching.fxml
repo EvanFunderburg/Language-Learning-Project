@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Button?>
+<?import java.net.URL?>
 <?import javafx.geometry.Insets?>
-<?import java.net.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.MatchingController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.MatchingController">
    <children>
-      <Label fx:id="lbl_title" layoutX="24.0" layoutY="24.0" text="Welcome"/>
-      <Label fx:id="lbl_type" layoutX="24.0" layoutY="24.0" text="Matching"/>
-      <Label fx:id="lbl_question" layoutX="24.0" layoutY="24.0" text=""/>
-      <Label fx:id="lbl_feedback" layoutX="24.0" layoutY="24.0" text=""/>
-      <Button fx:id="returnHomeButton" text="Advance to next question" onAction="#switchToUserHomePage"/>
+      <Label fx:id="lbl_title" layoutX="24.0" layoutY="24.0" text="Welcome" />
+      <Label fx:id="lbl_type" layoutX="24.0" layoutY="24.0" text="Matching" />
+     
+      <Label fx:id="lbl_feedback" layoutX="24.0" layoutY="24.0" text="" />
+      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+         <children>
+               <Button fx:id="btn_base1" onAction="#clickedBtnBase1" text="Base 1" />
+               <Button fx:id="btn_learning1" onAction="#clickedBtnLearning1" text="Learning 1" />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+         <children>
+               <Button fx:id="btn_base2" onAction="#clickedBtnBase2" text="Base 2" />    
+               <Button fx:id="btn_learning2" onAction="#clickedBtnLearning2" text="Learning 2" />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+         <children>
+               <Button fx:id="btn_base3" onAction="#clickedBtnBase3" text="Base 3" />
+               <Button fx:id="btn_learning3" onAction="#clickedBtnLearning3" text="Learning 3" />
+         </children>
+      </HBox>
+      <Label fx:id="lbl_question" layoutX="24.0" layoutY="24.0" text="" />
+      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+         <children>
+               <Button fx:id="btn_base_answer1" onAction="#clickedBtnBaseAnswer1" text="        " />
+               <Button fx:id="btn_learning_answer1" onAction="#clickedBtnLearningAnswer1" text="        " />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+         <children>
+               <Button fx:id="btn_base_answer2" onAction="#clickedBtnBaseAnswer2" text="        " />
+               <Button fx:id="btn_learning_answer2" onAction="#clickedBtnLearningAnswer2" text="        " />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+         <children>
+               <Button fx:id="btn_base_answer3" onAction="#clickedBtnBaseAnswer3" text="        " />
+               <Button fx:id="btn_learning_answer3" onAction="#clickedBtnLearningAnswer3" text="        " />
+         </children>
+      </HBox>
+       
+      <Button fx:id="submitAnswersButton" onAction="#submitAnswers" text="Submit" />
+      <Button fx:id="returnHomeButton" onAction="#switchToUserHomePage" text="Exit" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

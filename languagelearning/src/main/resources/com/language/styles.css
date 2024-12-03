@@ -8,11 +8,11 @@
   }
   
   .label {
-    -fx-text-fill: #fff;
+    -fx-text-fill: #070707;
   }
   
   .button {
-    -fx-background-color: black;
+    -fx-background-color: rgb(17, 115, 234);
     -fx-text-fill: #fff;
   }
   

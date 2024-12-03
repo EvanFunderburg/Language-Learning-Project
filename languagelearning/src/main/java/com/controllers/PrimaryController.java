@@ -50,5 +50,13 @@ public class PrimaryController implements Initializable{
     private void switchToLearn() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
         App.setRoot("learn");
+    }@FXML
+    private void switchToCorrect() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("correct_answer");
+    }@FXML
+    private void switchToIncorrect() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("incorrect_answer");
     }
 }

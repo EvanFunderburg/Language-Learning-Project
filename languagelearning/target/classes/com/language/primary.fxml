@@ -8,8 +8,13 @@
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.PrimaryController">
    <children>
+      <Label fx:id="lbl_title" layoutX="24.0" layoutY="24.0" text="Welcome"/>
       <Label text="Primary View" />
       <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+      <Button fx:id="MCButton" text="Switch to Multiple Choice" onAction="#switchToMultipleChoice"/>
+      <Button fx:id="TFButton" text="Switch to True False" onAction="#switchToTrueFalse"/>
+      <Button fx:id="FillInButton" text="Switch to Fill In Blank" onAction="#switchToFillInBlank"/>
+      <Button fx:id="MatchingButton" text="Switch to Matching" onAction="#switchToMatching"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

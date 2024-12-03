@@ -25,7 +25,7 @@ public class TrueFalse extends Question {
     public TrueFalse(Phrase question, boolean correctAnswer, int stageLevel, UUID questionID) {
         super(question, stageLevel, questionID);
         this.correctAnswer = correctAnswer;
-        this.questionType = "truefalse"; // Sets the question type to "truefalse".
+        this.questionType = "true_false"; // Sets the question type to "truefalse".
         WordList w = WordList.getInstance(); // Gets the instance of WordList.
         // Randomly selects a word from the question phrase if the correct answer is true, otherwise selects a random word.
         if(this.correctAnswer)

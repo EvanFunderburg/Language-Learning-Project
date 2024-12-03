@@ -19,7 +19,7 @@ public class LogInController {
     private Label lbl_error;
 
     @FXML
-    private Button primaryButton;
+    private Button logInButton;
 
     @FXML
     private TextArea txt_password;

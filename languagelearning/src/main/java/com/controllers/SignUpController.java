@@ -20,7 +20,7 @@ public class SignUpController {
     private Label lbl_error;
 
     @FXML
-    private Button primaryButton;
+    private Button signUpButton;
 
     @FXML
     private TextArea txt_password;

@@ -18,7 +18,7 @@
       <TextArea fx:id="txt_username" prefHeight="20.0" prefWidth="200.0" scaleY="1" />
       <Label text="Password" />
       <TextArea fx:id="txt_password" prefHeight="20.0" prefWidth="200.0" scaleY="1" />
-      <Button fx:id="primaryButton" onAction="#switchToUserHomePage" text="Log In" />
+      <Button fx:id="signUpButton" onAction="#switchToUserHomePage" text="Sign Up" />
       <Label fx:id="lbl_error" layoutX="212.0" layoutY="235.0" prefHeight="16.0" prefWidth="170.0" />
    </children>
    <padding>

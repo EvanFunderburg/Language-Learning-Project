@@ -30,7 +30,7 @@ public class FillBlank extends Question{
         this.questionID = questionID;
         Random rand = new Random();
         this.correctword = question.getPhrase().get(rand.nextInt(question.getPhrase().size())); //word in german
-        this.questionType = "fillblank";
+        this.questionType = "fill_blank";
     }
 
     @Override

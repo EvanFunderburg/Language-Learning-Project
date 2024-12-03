@@ -26,7 +26,7 @@ public class MultipleChoice extends Question {
         super(question, stageLevel, questionID);
         this.potentialAnswers = potentialAnswers;
         this.correctAnswer = correctAnswer;
-        this.questionType = "multiplechoice";
+        this.questionType = "multiple_choice";
     }
 
     /**

@@ -15,6 +15,7 @@
       <Button fx:id="TFButton" text="Switch to True False" onAction="#switchToTrueFalse"/>
       <Button fx:id="FillInButton" text="Switch to Fill In Blank" onAction="#switchToFillInBlank"/>
       <Button fx:id="MatchingButton" text="Switch to Matching" onAction="#switchToMatching"/>
+      <Button fx:id="LearnButton" text="Switch to Learning" onAction="#switchToLearn"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

@@ -4,13 +4,13 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import com.language.App;
+import com.model.LanguageAppFacade;
+import com.model.User;
+
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
-
-import com.language.App;
-import com.model.*;
-import com.narration.*;
 
 public class PrimaryController implements Initializable{
     @FXML private Label lbl_title;
@@ -46,5 +46,9 @@ public class PrimaryController implements Initializable{
     private void switchToMatching() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
         App.setRoot("matching");
+    }@FXML
+    private void switchToLearn() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("learn");
     }
 }

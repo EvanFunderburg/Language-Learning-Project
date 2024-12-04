@@ -63,5 +63,21 @@ public class PrimaryController implements Initializable{
     private void switchToStorySelect() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
         App.setRoot("story_select");
+    }@FXML
+    private void switchToChooseLang() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("choose_lang");
+    }@FXML
+    private void switchToPhrasesPreview() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("phrases_preview");
+    }@FXML
+    private void switchToProfile() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("profile");
+    }@FXML
+    private void switchToPrintPage() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("print");
     }
 }

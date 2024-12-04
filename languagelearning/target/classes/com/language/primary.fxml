@@ -19,6 +19,10 @@
       <Button fx:id="CorrectButton" text="Switch to Correct" onAction="#switchToCorrect"/>
       <Button fx:id="IncorrectButton" text="Switch to Incorrect" onAction="#switchToIncorrect"/>
       <Button fx:id="StorySelectButton" text="Switch to StorySelect" onAction="#switchToStorySelect"/>
+      <Button fx:id="ChooseLangButton" text="Switch to Choose Language" onAction="#switchToChooseLang"/>
+      <Button fx:id="PhrasesPreviewButton" text="Switch to Phrases Preview" onAction="#switchToPhrasesPreview"/>
+      <Button fx:id="ProfileButton" text="Switch to Profile" onAction="#switchToProfile"/>
+      <Button fx:id="printButton" text="Switch to Print Page" onAction="#switchToPrintPage"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

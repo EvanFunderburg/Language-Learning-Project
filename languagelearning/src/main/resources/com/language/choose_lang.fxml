@@ -8,14 +8,14 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="555.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.EntryPageController">
+<VBox alignment="CENTER" prefHeight="555.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.ChooseLangController">
    <children>
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/german.png" />
          </image>
       </ImageView>
-      <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="354.0" text="German" />
+      <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="279.0" text="German" fx:id="selectGerman" onAction="#switchToLearn"/>
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/spain.png" />
@@ -31,7 +31,7 @@
       <ButtonBar prefHeight="43.0" prefWidth="437.0" translateY="19.0">
         <buttons>
           <Button mnemonicParsing="false" text="Learn" translateX="-100.0" />
-            <Button mnemonicParsing="false" text="Profile" />
+            <Button mnemonicParsing="false" text="Profile" fx:id="switchToProfileFromLang" onAction="#switchToProfile"/>
         </buttons>
       </ButtonBar>
    </children>

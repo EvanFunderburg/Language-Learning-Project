@@ -174,6 +174,10 @@ public class LanguageAppFacade {
         user.getCurrentLanguageTrack().getCurrentStage().getLesson().resetQuestions();
     }
 
+    public int getLessonScore(){
+        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getScore();
+    }
+
     /*public void startLesson() {
         if (user != null) {
             System.out.println("Starting lesson ");

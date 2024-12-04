@@ -37,7 +37,7 @@ public class TrueFalseController implements Initializable {
     @FXML
     void switchToUserHomePage(ActionEvent event) throws IOException {
         
-        App.setRoot("primary");
+        App.setRoot("lesson_summary");
     }
 
     @FXML

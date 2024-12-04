@@ -38,7 +38,7 @@ public class FillBlankController implements Initializable {
     void switchToUserHomePage(ActionEvent event) throws IOException {
         
 
-        App.setRoot("primary");
+        App.setRoot("lesson_summary");
     }
 
     @FXML

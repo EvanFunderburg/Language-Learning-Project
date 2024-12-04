@@ -22,8 +22,10 @@ public class CorrectAnswerController {
     @FXML
     void nextQuestionButton(ActionEvent event) throws IOException {
         LanguageAppFacade facade = LanguageAppFacade.getInstance();
+        System.out.println(facade.getLessonScore());
         if(facade.isLessonFinished()){
-            App.setRoot("profile");
+            System.out.println("Lesson is finished");
+            App.setRoot("lesson_summary");
             return;
         }
         String type = facade.getCurrentQuestionType();
@@ -33,6 +35,6 @@ public class CorrectAnswerController {
 
     @FXML
     void exitButton(ActionEvent event) throws IOException {
-        App.setRoot("profile");
+        App.setRoot("lesson_summary");
     }
 }

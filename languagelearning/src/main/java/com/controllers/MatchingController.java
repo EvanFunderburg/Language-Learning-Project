@@ -192,7 +192,7 @@ public class MatchingController implements Initializable {
     void switchToUserHomePage(ActionEvent event) throws IOException {
         
 
-        App.setRoot("primary");
+        App.setRoot("lesson_summary");
     }
 
 

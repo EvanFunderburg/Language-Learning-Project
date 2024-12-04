@@ -12,19 +12,19 @@
    <children>
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../../../../Downloads/german.png" />
+            <Image url="@images/german.png" />
          </image>
       </ImageView>
       <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="354.0" text="German" />
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../../../../Downloads/spain.png" />
+            <Image url="@images/spain.png" />
          </image>
       </ImageView>
       <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="279.0" text="Spanish" />
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../../../../Downloads/france.png" />
+            <Image url="@images/france.png" />
          </image>
       </ImageView>
       <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="279.0" text="French" />

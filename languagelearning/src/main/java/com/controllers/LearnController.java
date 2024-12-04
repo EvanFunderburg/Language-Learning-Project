@@ -29,7 +29,7 @@ public class LearnController  {
     @FXML
     void switchToStoryPage(ActionEvent event) throws IOException {
         
-        //App.setRoot("primary");
+        App.setRoot("story_select");
     }
 
     @FXML

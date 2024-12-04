@@ -20,8 +20,8 @@
             <Image url="@../../../../../target/classes/com/images/earth.jpg" />
          </image>
       </ImageView>
-      <Button minWidth="300.0" mnemonicParsing="false" text="Next Question" />
-      <Button minWidth="300.0" mnemonicParsing="false" text="Exit Lesson" />
+      <Button minWidth="300.0" mnemonicParsing="false" text="Next Question" onAction="#nextQuestionButton"/>
+      <Button minWidth="300.0" mnemonicParsing="false" text="Exit Lesson" onAction="#exitButton"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

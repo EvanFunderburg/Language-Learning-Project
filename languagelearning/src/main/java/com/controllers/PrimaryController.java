@@ -20,6 +20,7 @@ public class PrimaryController implements Initializable{
     public void initialize(URL url, ResourceBundle rb) {
         facade = LanguageAppFacade.getInstance();
         facade.signIn("ttomacka", "BabyGronk");
+        facade.chooseLanguage("german");
         User user = facade.getUser();
         lbl_title.setText("Welcome " + user.getFirstName() + " " + user.getLastName());
     }   
@@ -31,21 +32,21 @@ public class PrimaryController implements Initializable{
     @FXML
     private void switchToMultipleChoice() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
-        App.setRoot("multiple_choice");
+        //App.setRoot("multiple_choice");
     }
     @FXML
     private void switchToTrueFalse() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
-        App.setRoot("true_false");
+        //App.setRoot("true_false");
     }
     @FXML
     private void switchToFillInBlank() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
-        App.setRoot("fill_blank");
+        //App.setRoot("fill_blank");
     }@FXML
     private void switchToMatching() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");
-        App.setRoot("matching");
+        //App.setRoot("matching");
     }@FXML
     private void switchToLearn() throws IOException {
         // Narriator.playSound("1 2 3 4 5 6");

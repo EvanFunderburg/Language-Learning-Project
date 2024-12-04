@@ -29,15 +29,9 @@ public class TrueFalseController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
-        facade.signIn("ttomacka", "BabyGronk");
-        User user = facade.getUser();
-        facade.chooseLanguage("german");
-        facade.startLesson();
-        while(!facade.isLessonFinished() && !facade.getCurrentQuestionType().equals("true_false")) {
-            facade.answerCurrentQuestion("null");
-        }
+      
         
-        lbl_title.setText("Welcome " + user.getFirstName() + " " + user.getLastName());
+        lbl_title.setText("Welcome " + facade.getUser().getFirstName() + " " + facade.getUser().getLastName());
         lbl_question.setText(facade.getCurrentQuestionString());
     }   
     @FXML
@@ -60,13 +54,12 @@ public class TrueFalseController implements Initializable {
         answerQuestion("false");
     }
 
-    private void answerQuestion(String answer) {
+    private void answerQuestion(String answer) throws IOException{
         if (facade.answerCurrentQuestion(answer))
-            lbl_feedback.setText("Correct! Nice job");
+            App.setRoot("correct_answer");
         else
-            lbl_feedback.setText("Incorrect :(");
+        App.setRoot("incorrect_answer");
 
-        facade.resetLesson();
     }
     
 }

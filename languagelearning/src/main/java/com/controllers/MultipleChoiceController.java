@@ -33,11 +33,7 @@ public class MultipleChoiceController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
-        facade.chooseLanguage("german");
-        facade.startLesson();
-        while(!facade.isLessonFinished() && !facade.getCurrentQuestionType().equals("multiple_choice")) {
-            facade.answerCurrentQuestion("null");
-        }
+       
         
         String[] answers = facade.getAnswerChoices().split("#");
         
@@ -59,29 +55,37 @@ public class MultipleChoiceController implements Initializable {
     @FXML
     void clickedButtonA(ActionEvent event) throws IOException {
         
-        lbl_feedback.setText("Clicked Button A");
-        answerQuestion("a");
+        if(facade.answerCurrentQuestion("a"))
+            App.setRoot("correct_answer");
+        else
+            App.setRoot("incorrect_answer");
     }
 
     @FXML
     void clickedButtonB(ActionEvent event) throws IOException {
         
-        lbl_feedback.setText("Clicked Button B");
-        answerQuestion("b");
+        if(facade.answerCurrentQuestion("b"))
+            App.setRoot("correct_answer");
+        else
+            App.setRoot("incorrect_answer");
     }
 
     @FXML
     void clickedButtonC(ActionEvent event) throws IOException {
         
-        lbl_feedback.setText("Clicked Button C");
-        answerQuestion("c");
+        if(facade.answerCurrentQuestion("c"))
+            App.setRoot("correct_answer");
+        else
+            App.setRoot("incorrect_answer");
     }
 
     @FXML
     void clickedButtonD(ActionEvent event) throws IOException {
         
-        lbl_feedback.setText("Clicked Button D");
-        answerQuestion("d");
+        if(facade.answerCurrentQuestion("d"))
+        App.setRoot("correct_answer");
+    else
+        App.setRoot("incorrect_answer");
     }
 
     private void answerQuestion(String ans) {

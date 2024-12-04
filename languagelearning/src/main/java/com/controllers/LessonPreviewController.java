@@ -1,6 +1,5 @@
 package com.controllers;
 
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.Locale.LanguageRange;
@@ -18,21 +17,18 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
-public class CorrectAnswerController {
+public class LessonPreviewController  {
+    @FXML private Label lbl_title;
+     
     @FXML
-    void nextQuestionButton(ActionEvent event) throws IOException {
+    void advanceToLesson(ActionEvent event) throws IOException {
         LanguageAppFacade facade = LanguageAppFacade.getInstance();
-        if(facade.isLessonFinished()){
-            App.setRoot("profile");
-            return;
-        }
-        String type = facade.getCurrentQuestionType();
-        App.setRoot(type);
-
+        facade.resetLesson();
+        System.out.println(facade.startLesson());
+        App.setRoot(facade.getCurrentQuestionType());
     }
 
-    @FXML
-    void exitButton(ActionEvent event) throws IOException {
-        App.setRoot("profile");
-    }
+
+
+    
 }

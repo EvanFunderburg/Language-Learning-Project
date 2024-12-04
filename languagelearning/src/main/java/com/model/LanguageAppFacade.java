@@ -90,12 +90,6 @@ public class LanguageAppFacade {
         return "";
     }
 
-    /**
-     * Handles answering a question
-     */
-    public void answerQuestion() {
-        
-    }
 
     /**
      * Sets the user's chosen language for learning

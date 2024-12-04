@@ -10,13 +10,13 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.LearnController">
    <children>
       <Label text="Learn" />
-      <Button mnemonicParsing="false" text="Read Story" />
-      <Button mnemonicParsing="false" text="Start Lesson" />
-      <Button mnemonicParsing="false" text="Practice Difficult Lessons" />
+      <Button mnemonicParsing="false" text="Read Story" onAction="#switchToStoryPage"/>
+      <Button mnemonicParsing="false" text="Start Lesson" onAction="#switchToLearnPage"/>
+      <Button mnemonicParsing="false" text="Practice Difficult Lessons" onAction="#switchToStrugglePage"/>
       <ButtonBar prefHeight="40.0" prefWidth="200.0">
         <buttons>
           <Button mnemonicParsing="false" text="Learn" />
-            <Button mnemonicParsing="false" text="Profile" />
+            <Button mnemonicParsing="false" text="Profile" onAction="#switchToProfile"/>
         </buttons>
       </ButtonBar>
    </children>

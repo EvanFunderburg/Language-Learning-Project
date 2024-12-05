@@ -439,6 +439,19 @@ public class User {
         }
     }
     /**
+     * Method to show top five struggle words
+     */
+    public String showStruggleList() {
+        String txt = "";
+        for (int i = 0; i < this.struggleList.size() && i<5; i++) {
+            txt += "\n";
+            txt += "" + struggleList.get(i).getPhrase().get(0).getBaseLanguage().label + " " + struggleList.get(i).getPhrase().get(0).getLearningLanguage().label+"\n";  
+            txt += (i + 1) + ". " + this.struggleList.get(i).getDefinition() + " : " + this.struggleList.get(i).toString() + "\n";
+        }
+        return txt;
+    }
+
+    /**
      * Method to create a study sheet for the user.
      * The study sheet is a text file that contains the user's struggle words and phrases.
      */

@@ -22,7 +22,7 @@ public class ProfileController implements Initializable {
 
     private LanguageAppFacade facade;
     @FXML private Text lbl_name;
-    @FXML private Text lbl_userdata;
+    @FXML private Text txt_userdata;
  
 
     @Override
@@ -36,7 +36,7 @@ public class ProfileController implements Initializable {
             lang = user.getCurrentLanguageTrack().getLearningLanguage().label;
             stage = ""+user.getCurrentLanguageTrack().getCurrentStageLevel();
         }
-        lbl_userdata.setText(user.getUsername()+ "             Questions Correct: "+user.getQuestionsCorrect()+
+        txt_userdata.setText(user.getUsername()+ "             Questions Correct: "+user.getQuestionsCorrect()+
         "                        Questions Wrong: "+user.getQuestionsWrong()+
         "                        Accuracy:                    "+user.calculateAccuracy()+
         "                        Current Language Track: "+lang+

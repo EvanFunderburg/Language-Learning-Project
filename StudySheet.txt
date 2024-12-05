@@ -1,0 +1,31 @@
+Base Definition 	 	 | Learning definition
+
+Base language: English Learning Language: German
+1. red green blue : rot grun blau. 
+
+Base language: English Learning Language: German
+2. yellow black white : gelb schwarz weiss. 
+
+Base language: English Learning Language: German
+3. red : rot. 
+
+Base language: English Learning Language: German
+4. green : grun. 
+
+Base language: English Learning Language: German
+5. blue : blau. 
+
+Base language: English Learning Language: German
+6. black : schwarz. 
+
+Base language: English Learning Language: German
+7. the rose is red : die rose ist rot. 
+
+Base language: English Learning Language: German
+8. the grass is green : das gras ist grun. 
+
+Base language: English Learning Language: German
+9. the sky is blue : der himmel ist blau. 
+
+Base language: English Learning Language: German
+10. the road is black : die strasse ist schwarz. 

@@ -140,15 +140,22 @@ public class LanguageAppFacade {
 
     /**
      * Starts a new lesson for the current user and returns the study sheet
+     * @return the study sheet for the lesson
      */
     public String startLesson() {
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getStudySheet();
     }
-
+    /**
+     * Gets the current question
+     * @return the Question part of the current question
+     */
     public String getCurrentQuestionString() {
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionAsString();
     }
-
+    /**
+     * Gets the current question type
+     * @return the type of the current question
+     */
     public String getCurrentQuestionType() {
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionType();
     }
@@ -156,24 +163,39 @@ public class LanguageAppFacade {
     public String getAnswerChoices(){
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getAnwersChoicesAsString();
     }
-
+    /**
+     * Answers the current question and moves to next question
+     * @return true if question correct false if not
+     */
     public boolean answerCurrentQuestion(String answer) {
         boolean correct = user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().promptUserResponse(answer);
-        if(correct)
+        if(correct) {
+            user.setQuestionsCorrect(user.getQuestionsCorrect()+1);
             user.getCurrentLanguageTrack().getCurrentStage().getLesson().questionCorrect();
-        else
+        }
+        else {
+            user.setQuestionsWrong(user.getQuestionsWrong()+1);
             user.getCurrentLanguageTrack().getCurrentStage().getLesson().questionIncorrect();
+        }
         return correct;
     }
-
+    /**
+     * are all the questions in the lesson finished
+     * @return true if lesson is finished
+     */
     public boolean isLessonFinished(){
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().isLessonComplete();
     }
-
+    /**
+     * resets the lesson
+     */
     public void resetLesson(){
         user.getCurrentLanguageTrack().getCurrentStage().getLesson().resetQuestions();
     }
-
+    /**
+     * gets the lesson score
+     * @return the lesson score
+     */
     public int getLessonScore(){
         return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getScore();
     }

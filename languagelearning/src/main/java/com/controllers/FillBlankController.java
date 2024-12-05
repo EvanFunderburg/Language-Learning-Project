@@ -17,12 +17,16 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.input.KeyEvent;
 
 public class FillBlankController implements Initializable {
 
     @FXML private Label lbl_title;
     @FXML private Label lbl_type;
     @FXML private Label lbl_question;
+    @FXML private TextArea txt_answer;
+
+    private boolean clearText = true;
 
     private LanguageAppFacade facade;
 
@@ -43,10 +47,19 @@ public class FillBlankController implements Initializable {
 
     @FXML
     void submitAnswers(ActionEvent event) throws IOException {
-        
-        facade.answerCurrentQuestion("");
-        App.setRoot("correct_answer");
+        String answer = txt_answer.getText();
+        if (facade.answerCurrentQuestion(answer.toLowerCase()))
+            App.setRoot("correct_answer");
+        else
+        App.setRoot("incorrect_answer");
     }
     
+    @FXML
+    void clearTextField(KeyEvent event) throws IOException {
+        if(clearText) {
+            txt_answer.setText("");
+            clearText = false;
+        }
+    }
     
 }

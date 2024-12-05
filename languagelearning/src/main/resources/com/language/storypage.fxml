@@ -17,7 +17,7 @@
       <URL value="@styles.css" />
    </stylesheets>
    <children>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="fxtitle">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text= fx:id="lbl_title">
          <VBox.margin>
             <Insets />
          </VBox.margin></Text>
@@ -25,7 +25,7 @@
       <TextArea prefHeight="313.0" prefWidth="430.0" text="fx" wrapText="true" />
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="150.0">
          <children>
-            <Button mnemonicParsing="false" text="GO HOME" />
+            <Button mnemonicParsing="false" text="EXIT" onAction="#switchToUserHomePage" fx:id="homepage"/>
             <Button mnemonicParsing="false" text="GO TO QUESTION" />
          </children>
       </HBox>

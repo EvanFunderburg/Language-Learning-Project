@@ -26,41 +26,41 @@
             <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="930.0" prefWidth="408.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Little Red Riding Hood" textAlignment="CENTER" wrappingWidth="238.75" />
-                  <Button mnemonicParsing="false" onAction="#switchToStoryPage" fx:id="btn_red_riding">
+                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_red_riding">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/Screenshot%202023-06-07%20103857.png" />
+                              <Image url="@images/rrh.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="GOLDILOCKS" />
-                  <Button mnemonicParsing="false">
+                  <Button mnemonicParsing="false" onAction="#clickedgoldiStory" fx:id="btn_goldi">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/Screenshot%202024-09-16%20212118.png" />
+                              <Image url="@images/goldi.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Goodnight Moon" />
-                  <Button mnemonicParsing="false">
+                  <Button mnemonicParsing="false" onAction="#clickedmoonStory" fx:id="btn_gnmoon">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/Screenshot%202023-06-07%20103826.png" />
+                              <Image url="@images/gnmoon.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Three Little Pigs" />
-                  <Button mnemonicParsing="false">
+                  <Button mnemonicParsing="false" onAction="#clickedpigsStory" fx:id="btn_3pigs">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/Screenshot%202022-03-30%20184850.png" />
+                              <Image url="@images/3pigs.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -70,6 +70,6 @@
             </VBox>
          </content>
       </ScrollPane>
-      <Button mnemonicParsing="false" text="BACK" />
+      <Button mnemonicParsing="false" text="BACK" onAction="#switchToUserHomePage" fx:id="homepage"/>
    </children>
 </VBox>

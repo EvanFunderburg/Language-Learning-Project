@@ -7,14 +7,23 @@ import com.model.LanguageAppFacade;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 
 public class StorySelectController {
+    @FXML private Button btn_red_riding;
     @FXML
-    void switchToUserHomePage() throws IOException {
+    void switchToUserHomePage(ActionEvent event) throws IOException {
         App.setRoot("primary");
     }
     @FXML
-    void switchToStoryPage() throws IOException {
+    void switchToStoryPage(ActionEvent event) throws IOException {
         App.setRoot("primary");
     }
+
+    @FXML
+    void clickedRedRidingStory(ActionEvent event) throws IOException {
+        App.setRoot("primary");
+    }
+
+
 }

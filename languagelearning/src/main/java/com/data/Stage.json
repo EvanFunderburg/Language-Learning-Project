@@ -31,5 +31,39 @@
             "page": 0,
             "title": "Stage 1 story"
         }
+    },
+    {
+        "stageLevel": 2,
+        "story": {
+            "storyID": "9770baf4-f195-4114-b6ae-1bd14c1b80a2",
+            "book": [
+                {
+                    "image": "filepath",
+                    "sentences": [
+                        "491dc528-d562-4daa-b00d-74647cc62ba3"
+                    ],
+                    "pageNum": 1
+                },
+                {
+                    "image": "filepath",
+                    "sentences": [
+                        "d0e4b19f-85e9-4afc-999c-441e58b9ab91"
+                    ],
+                    "pageNum": 2
+                },
+                {
+                    "image": "filepath",
+                    "sentences": [
+                        "38a7137e-6503-4446-aabb-e7b51c76167b"
+                    ],
+                    "pageNum": 3
+                }
+            ],
+            "totalPages": 3,
+            "stageLevel": 2,
+            "page": 0,
+            "title": "Stage 1 story"
+        }
     }
+    
 ]

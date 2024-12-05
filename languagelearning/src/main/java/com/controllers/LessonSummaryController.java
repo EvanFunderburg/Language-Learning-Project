@@ -37,7 +37,7 @@ public class LessonSummaryController implements Initializable{
         }
         else if (score >= 6) {
             lbl_feedback.setText("Well Done. You've earned passage to the next stage!");
-            // facade.advanceStage(); 
+            facade.advanceStage(); 
             // advancing to the next stage is giving errors
         }
         else {

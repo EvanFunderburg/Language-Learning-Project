@@ -36,7 +36,7 @@
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="GOLDILOCKS" />
-                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_goldi">
+                  <Button mnemonicParsing="false" onAction="#clickedgoldiStory" fx:id="btn_goldi">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>

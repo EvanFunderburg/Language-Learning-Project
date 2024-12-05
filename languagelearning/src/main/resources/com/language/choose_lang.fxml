@@ -7,6 +7,8 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
 
 <VBox alignment="CENTER" prefHeight="555.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.ChooseLangController">
    <children>
@@ -15,25 +17,26 @@
             <Image url="@images/german.png" />
          </image>
       </ImageView>
-      <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="279.0" text="German" fx:id="selectGerman" onAction="#switchToLearn"/>
+      <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="279.0" text="German" fx:id="selectGerman" onAction="#chooseGerman"/>
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/spain.png" />
          </image>
       </ImageView>
-      <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="279.0" text="Spanish" />
+      <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="279.0" text="Spanish" onAction="#chooseSpanish"/>
       <ImageView fitHeight="87.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/france.png" />
          </image>
       </ImageView>
-      <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="279.0" text="French" />
+      <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="279.0" text="French" onAction="#chooseFrench"/>
       <ButtonBar prefHeight="43.0" prefWidth="437.0" translateY="19.0">
         <buttons>
           <Button mnemonicParsing="false" text="Learn" translateX="-100.0" />
             <Button mnemonicParsing="false" text="Profile" fx:id="switchToProfileFromLang" onAction="#switchToProfile"/>
         </buttons>
       </ButtonBar>
+      <Label fx:id="lbl_error" layoutX="212.0" layoutY="235.0" prefHeight="16.0" prefWidth="170.0" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

@@ -47,6 +47,6 @@ public class SignUpController {
             return;
         }
 
-        App.setRoot("primary");
+        App.setRoot("choose_lang");
     }
 }

@@ -47,18 +47,12 @@ public class LessonSummaryController implements Initializable{
 
     @FXML
     void exitToProfile(ActionEvent event) throws IOException {
-        LanguageAppFacade facade = LanguageAppFacade.getInstance();
-        facade.resetLesson();
-        System.out.println(facade.startLesson());
-        App.setRoot(facade.getCurrentQuestionType());
+        App.setRoot("profile");
     }
 
     @FXML
     void exitToLearn(ActionEvent event) throws IOException {
-        LanguageAppFacade facade = LanguageAppFacade.getInstance();
-        facade.resetLesson();
-        System.out.println(facade.startLesson());
-        App.setRoot(facade.getCurrentQuestionType());
+        App.setRoot("learn");
     }
 
     

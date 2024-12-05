@@ -38,7 +38,7 @@ public class LogInController {
             return;
         }
 
-        App.setRoot("primary");
+        App.setRoot("choose_lang");
     }
 
 }

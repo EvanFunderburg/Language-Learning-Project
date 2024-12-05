@@ -26,7 +26,7 @@
             <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="930.0" prefWidth="408.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Little Red Riding Hood" textAlignment="CENTER" wrappingWidth="238.75" />
-                  <Button fx:id="StorySelectButton1" onAction="#switchToStoryPage"/>
+                  <Button mnemonicParsing="false">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -36,7 +36,7 @@
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="GOLDILOCKS" />
-                  <Button fx:id="StorySelectButton2" onAction="#switchToStoryPage"/>
+                  <Button mnemonicParsing="false">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -46,7 +46,7 @@
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Goodnight Moon" />
-                  <Button fx:id="StorySelectButton3" onAction="#switchToStoryPage"/>
+                  <Button mnemonicParsing="false">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -56,7 +56,7 @@
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Three Little Pigs" />
-                  <Button fx:id="StorySelectButton4" onAction="#switchToStoryPage"/>
+                  <Button mnemonicParsing="false">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -70,6 +70,6 @@
             </VBox>
          </content>
       </ScrollPane>
-      <Button fx:id="BackButton" text="Back" onAction="#switchToUserHomePage"/>
+      <Button mnemonicParsing="false" text="BACK" />
    </children>
 </VBox>

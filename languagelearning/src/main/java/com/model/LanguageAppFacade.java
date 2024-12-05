@@ -143,39 +143,72 @@ public class LanguageAppFacade {
      * @return the study sheet for the lesson
      */
     public String startLesson() {
-        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getStudySheet();
+        user.setCurrentLesson(user.getCurrentLanguageTrack().getCurrentStage().getLesson());
+        user.setStruggleLesson(false);
+        return user.getCurrentLesson().getStudySheet();
+    }
+
+     /**
+     * Starts a new struggle lesson for the current user and returns the study sheet
+     * @return the study sheet for the lesson
+     */
+    public String startStruggleLesson() {
+        // create the struggle lesson
+        ArrayList<Phrase> strugList = user.getStruggleList();
+        ArrayList<Question> quesList = new ArrayList<Question>();
+        for(int i = 0; i < 10 && i < strugList.size(); i++) {
+                quesList.add(Question.createQuestion(strugList.get(i), strugList.get(i).getStageLevel()));
+        }
+        Lesson lesson = new Lesson(quesList, "Struggle", user.getCurrentLanguageTrack().getCurrentStageLevel());
+        user.setCurrentLesson(lesson);
+        user.setStruggleLesson(true);
+        return user.getCurrentLesson().getStudySheet();
+    }
+
+    public boolean isStruggleLesson() {
+        return user.isStruggleLesson();
     }
     /**
      * Gets the current question
      * @return the Question part of the current question
      */
     public String getCurrentQuestionString() {
-        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionAsString();
+        return user.getCurrentLesson().getCurrentQuestion().getQuestionAsString();
     }
     /**
      * Gets the current question type
      * @return the type of the current question
      */
     public String getCurrentQuestionType() {
-        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getQuestionType();
+        return user.getCurrentLesson().getCurrentQuestion().getQuestionType();
     }
 
     public String getAnswerChoices(){
-        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().getAnwersChoicesAsString();
+        return user.getCurrentLesson().getCurrentQuestion().getAnwersChoicesAsString();
     }
     /**
      * Answers the current question and moves to next question
      * @return true if question correct false if not
      */
     public boolean answerCurrentQuestion(String answer) {
-        boolean correct = user.getCurrentLanguageTrack().getCurrentStage().getLesson().getCurrentQuestion().promptUserResponse(answer);
+        boolean correct = user.getCurrentLesson().getCurrentQuestion().promptUserResponse(answer);
         if(correct) {
+            // if user is doing a struggle lesson and gets question right it removes from struggle list
+            if(user.isStruggleLesson()) {
+                // remove phrase from struggleList
+                user.removeFromStruggleList(user.getCurrentLesson().getCurrentQuestion().getPhrase());
+            }
             user.setQuestionsCorrect(user.getQuestionsCorrect()+1);
-            user.getCurrentLanguageTrack().getCurrentStage().getLesson().questionCorrect();
+            user.getCurrentLesson().questionCorrect();  // this method increments to the next question
         }
         else {
+            // if user isn't doing a struggle lesson and gets a question wrong add to struggle list
+            if(!user.isStruggleLesson()) {
+                // add phrase to struggleList
+                user.addToStruggleList(user.getCurrentLesson().getCurrentQuestion().getPhrase());
+            }
             user.setQuestionsWrong(user.getQuestionsWrong()+1);
-            user.getCurrentLanguageTrack().getCurrentStage().getLesson().questionIncorrect();
+            user.getCurrentLesson().questionIncorrect();  // this method increments to the next question
         }
         return correct;
     }
@@ -184,20 +217,20 @@ public class LanguageAppFacade {
      * @return true if lesson is finished
      */
     public boolean isLessonFinished(){
-        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().isLessonComplete();
+        return user.getCurrentLesson().isLessonComplete();
     }
     /**
      * resets the lesson
      */
     public void resetLesson(){
-        user.getCurrentLanguageTrack().getCurrentStage().getLesson().resetQuestions();
+        user.getCurrentLesson().resetQuestions();
     }
     /**
      * gets the lesson score
      * @return the lesson score
      */
     public int getLessonScore(){
-        return user.getCurrentLanguageTrack().getCurrentStage().getLesson().getScore();
+        return user.getCurrentLesson().getScore();
     }
 
     /*public void startLesson() {
@@ -233,10 +266,12 @@ public class LanguageAppFacade {
         }
     }*/
 
+   
+   
     /**
      * Starts a lesson focused on phrases the user has struggled with
      */
-    public void startStruggleLesson() {
+   /* public void startStruggleLesson() {
         if (user != null) {
             System.out.println("Starting lesson ");
             // Stage userStage = user.getCurrentLanguageTrack().getCurrentStage();
@@ -264,7 +299,7 @@ public class LanguageAppFacade {
         } else {
             System.out.println("User not found. Please sign in first.");
         }
-    }
+    }*/
 
     /**
      * Starts an interactive story reading session

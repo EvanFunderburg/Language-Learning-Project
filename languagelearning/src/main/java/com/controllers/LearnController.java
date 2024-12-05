@@ -35,7 +35,7 @@ public class LearnController  {
     @FXML
     void switchToStrugglePage(ActionEvent event) throws IOException {
         
-       // App.setRoot("primary");
+       App.setRoot("struggle_lesson_preview");
     }
 
     @FXML

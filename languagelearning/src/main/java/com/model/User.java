@@ -25,6 +25,8 @@ public class User {
     private ArrayList<Phrase> struggleList;
     public boolean loggedIn;
     private LanguageTrack currentLanguageTrack;
+    private Lesson currentLesson;
+    private boolean lessonIsStruggle; // true if currentLesson is a struggle lesson
 
     
     /**
@@ -372,6 +374,23 @@ public class User {
      */
     public ArrayList<Phrase> getStruggleList() {
         return this.struggleList;
+    }
+
+    public Lesson getCurrentLesson() {
+        return this.currentLesson;
+    }   
+
+    public void setCurrentLesson(Lesson lesson) {
+        if(lesson != null)
+            this.currentLesson = lesson;
+    }
+    
+    public boolean isStruggleLesson() {
+        return lessonIsStruggle;
+    }
+
+    public void setStruggleLesson(boolean lessonIsStruggle) {
+        this.lessonIsStruggle = lessonIsStruggle;
     }
 
     /**

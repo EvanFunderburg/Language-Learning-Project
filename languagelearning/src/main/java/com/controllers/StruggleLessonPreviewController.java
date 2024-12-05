@@ -17,15 +17,22 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
-public class LessonPreviewController  {
+public class StruggleLessonPreviewController  {
     @FXML private Label lbl_title;
+    @FXML private Label lbl_error;
      
     @FXML
     void advanceToLesson(ActionEvent event) throws IOException {
         LanguageAppFacade facade = LanguageAppFacade.getInstance();
-        System.out.println(facade.startLesson());
+        facade.getUser().makeStudySheet();
+        System.out.println(facade.startStruggleLesson());
         facade.resetLesson();
-        App.setRoot(facade.getCurrentQuestionType());
+        if(facade.isLessonFinished()){
+            lbl_error.setText("You don't have any words you are struggling with :)");
+            App.setRoot("learn");
+        }
+        else
+            App.setRoot(facade.getCurrentQuestionType());
     }
 
 

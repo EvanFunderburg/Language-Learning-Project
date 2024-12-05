@@ -23,7 +23,7 @@ public class LessonSummaryController implements Initializable{
     @FXML private Label lbl_error;
     @FXML private Button btn_advanceStage;
     private LanguageAppFacade facade;
-    private boolean canAdvance;
+
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
         facade = LanguageAppFacade.getInstance();
@@ -31,9 +31,14 @@ public class LessonSummaryController implements Initializable{
         lbl_score.setText("Score: "+ score);
         // if score is 8 or greater the user advances stages
         // if not they retry the stage and the text on the button is made to match that
-        if (score >= 6) {
+        if(facade.isStruggleLesson())
+        {
+            // do something here
+        }
+        else if (score >= 6) {
             lbl_feedback.setText("Well Done. You've earned passage to the next stage!");
-            facade.advanceStage();
+            // facade.advanceStage(); 
+            // advancing to the next stage is giving errors
         }
         else {
             lbl_feedback.setText("Well shucks. You're gonna have to redo this stage :(");

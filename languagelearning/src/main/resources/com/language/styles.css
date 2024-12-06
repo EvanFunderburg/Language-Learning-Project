@@ -16,3 +16,10 @@
     -fx-text-fill: #fff;
   }
   
+  .button:hover {
+    -fx-background-color: rgb(0, 50, 110);
+  }
+
+  .button:disabled {
+    -fx-background-color: rgb(0, 50, 110);
+  }

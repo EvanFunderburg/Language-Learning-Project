@@ -36,7 +36,6 @@ public class StoryPageController  implements Initializable {
             image.setImage(storypicture);
         }
         catch(Exception e){
-            System.out.print("balls");
         }
         image.setImage(storypicture);
         txt_title.setText(cuStory.getTitle());
@@ -62,12 +61,10 @@ public class StoryPageController  implements Initializable {
             image.setImage(storypicture);
         }
         catch(Exception e){
-            System.out.print("balls");
         }
         story_txt.setText(page.getsentenceinstr());
         if(cuStory.isStoryComplete()){
             nextpage.setText("END STORY");
-            System.out.println("BALLLSSS");
         }
     }
     

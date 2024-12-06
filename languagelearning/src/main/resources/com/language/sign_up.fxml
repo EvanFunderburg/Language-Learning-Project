@@ -12,7 +12,7 @@
 
 <VBox alignment="TOP_CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.SignUpController">
    <children>
-      <VBox alignment="TOP_CENTER" maxHeight="550.0" minHeight="550.0" prefHeight="550.0" prefWidth="100.0">
+      <VBox alignment="TOP_CENTER" maxHeight="550.0" minHeight="550.0" prefHeight="550.0" prefWidth="100.0" spacing="10.0">
          <children>
             <Label text="Sign Up Page">
                <font>
@@ -47,7 +47,7 @@
                   </VBox>
                </children>
             </VBox>
-            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="250.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/GoongleLogo.png" />
                </image>

@@ -35,14 +35,14 @@
                   </VBox>
                </children>
             </VBox>
-            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/GoongleLogo.png" />
                </image>
             </ImageView>
          </children>
       </VBox>
-      <Label fx:id="lbl_error" alignment="CENTER" maxWidth="350.0" minWidth="350.0" prefHeight="16.0" prefWidth="350.0" textFill="RED">
+      <Label fx:id="lbl_error" maxWidth="350.0" minWidth="350.0" prefHeight="16.0" prefWidth="350.0" textFill="RED">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

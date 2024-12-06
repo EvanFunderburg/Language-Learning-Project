@@ -24,10 +24,11 @@ public class StoryPageController  implements Initializable {
     @FXML private ImageView image;
     @FXML private Image storypicture;
     private LanguageAppFacade facade;
+    private Story cuStory;
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
-        Story cuStory = facade.getStory(facade.getUser().getStorySelect());
+        cuStory = facade.getStory(facade.getUser().getStorySelect());
         StoryPage page = cuStory.getStoryPage();
         //storypicture = new Image(getClass().getResourceAsStream("@images/"+page.getImage()));
         //image.setImage(storypicture);
@@ -44,10 +45,10 @@ public class StoryPageController  implements Initializable {
     @FXML
     void switchToNext(ActionEvent event) throws IOException {
         facade = LanguageAppFacade.getInstance();
-        Story cuStory = facade.getStory(facade.getUser().getStorySelect());
-        StoryPage page = cuStory.getStoryPage();
         cuStory.turnPage();
-        App.setRoot("storypage");
+        StoryPage page = cuStory.getStoryPage();
+        System.out.println(page.getsentenceinstr());
+        story_txt.setText(page.getsentenceinstr());
     }
     
 }

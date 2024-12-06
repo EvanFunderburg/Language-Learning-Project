@@ -7,9 +7,10 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" prefHeight="700.0" prefWidth="450.0" spacing="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.StorySelectController">
+<VBox alignment="CENTER" prefHeight="700.0" prefWidth="450.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.StorySelectController">
    <padding>
       <Insets bottom="10.0" left="10.0" right="10.0" />
    </padding>
@@ -17,59 +18,105 @@
       <URL value="@styles.css" />
    </stylesheets>
    <children>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="STORY SELECT">
-         <VBox.margin>
-            <Insets />
-         </VBox.margin></Text>
-      <ScrollPane prefHeight="515.0" prefWidth="312.0">
-         <content>
-            <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="930.0" prefWidth="408.0">
-               <children>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Little Red Riding Hood" textAlignment="CENTER" wrappingWidth="238.75" />
-                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_red_riding">
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@images/rrh.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="GOLDILOCKS" />
-                  <Button mnemonicParsing="false" onAction="#clickedgoldiStory" fx:id="btn_goldi">
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@images/goldi.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Goodnight Moon" />
-                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_gnmoon">
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@images/gnmoon.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Three Little Pigs" />
-                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_3pigs">
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@images/3pigs.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="More Stories Soon!" />
-               </children>
-            </VBox>
-         </content>
-      </ScrollPane>
-      <Button mnemonicParsing="false" text="BACK" onAction="#switchToUserHomePage" fx:id="homepage"/>
+      <VBox alignment="TOP_CENTER" maxHeight="550.0" minHeight="550.0" prefHeight="550.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="STORY SELECT">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <ScrollPane prefHeight="515.0" prefWidth="312.0">
+               <content>
+                  <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="930.0" prefWidth="408.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="btn_red_riding" mnemonicParsing="false" onAction="#clickedRedRidingStory">
+                                 <graphic>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/rrh.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Little Red Riding Hood" textAlignment="CENTER" wrappingWidth="238.75">
+                                 <font>
+                                    <Font name="System Italic" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="btn_goldi" mnemonicParsing="false" onAction="#clickedgoldiStory">
+                                 <graphic>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/goldi.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="GOLDILOCKS">
+                                 <font>
+                                    <Font name="System Italic" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="btn_gnmoon" mnemonicParsing="false" onAction="#clickedRedRidingStory">
+                                 <graphic>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/gnmoon.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Goodnight Moon">
+                                 <font>
+                                    <Font name="System Italic" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="btn_3pigs" mnemonicParsing="false" onAction="#clickedRedRidingStory">
+                                 <graphic>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/3pigs.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Three Little Pigs">
+                                 <font>
+                                    <Font name="System Italic" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="More Stories Soon!">
+                           <font>
+                              <Font name="System Italic" size="15.0" />
+                           </font></Text>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <Button fx:id="homepage" maxHeight="40.0" maxWidth="350.0" minHeight="40.0" minWidth="350.0" mnemonicParsing="false" onAction="#switchToUserHomePage" prefHeight="40.0" prefWidth="350.0" text="BACK">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
    </children>
 </VBox>

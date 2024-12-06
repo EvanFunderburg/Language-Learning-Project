@@ -5,7 +5,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import com.language.App;
-import com.model.LanguageAppFacade;
 import com.model.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -17,6 +16,7 @@ import javafx.scene.image.ImageView;
 
 public class StoryPageController  implements Initializable {
     @FXML private Button homepage;
+    @FXML private Button nextpage;
     @FXML private Label lbl_title;
     @FXML private Label story_txt;
     @FXML private ImageView image;
@@ -38,6 +38,14 @@ public class StoryPageController  implements Initializable {
     @FXML
     void switchToUserHomePage(ActionEvent event) throws IOException {
         App.setRoot("primary");
+    }
+    @FXML
+    void switchTonext(ActionEvent event) throws IOException {
+        facade = LanguageAppFacade.getInstance();
+        Story cuStory = facade.getStory(facade.getUser().getStorySelect());
+        StoryPage page = cuStory.getStoryPage();
+        cuStory.turnPage();
+        App.setRoot("storypage");
     }
     
 }

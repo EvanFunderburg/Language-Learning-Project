@@ -23,14 +23,14 @@
          </VBox.margin></Text>
       <ImageView fitHeight="272.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true" fx:id = "image"/>
          <image>
-            <Image url= fx:id="@images/goldi.png" />
+            <Image url= "@images/goldi.png" />
          </image>
       </ImageView>
       <TextArea prefHeight="313.0" prefWidth="430.0" text= fx:id="story_txt" wrapText="true" />
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="150.0">
          <children>
             <Button mnemonicParsing="false" text="EXIT" onAction="#switchToUserHomePage" fx:id="homepage"/>
-            <Button mnemonicParsing="false" text="GO TO QUESTION" />
+            <Button mnemonicParsing="false" text="NEXT PAGE" onAction="#switchTonext" fx:id="nextpage"/>
          </children>
       </HBox>
    </children>

@@ -16,8 +16,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.text.Text;
 
-public class StruggleLessonPreviewController implements Initializable {
+public class PhrasesPreviewController implements Initializable {
     private LanguageAppFacade facade;
     
     @FXML private Label lbl_title;
@@ -49,8 +50,13 @@ public class StruggleLessonPreviewController implements Initializable {
         else
             App.setRoot(facade.getCurrentQuestionType());
     }
+    
 
-
+    @FXML
+    private void switchToLearn() throws IOException {
+        // Narriator.playSound("1 2 3 4 5 6");
+        App.setRoot("learn");
+    }
 
     
 }

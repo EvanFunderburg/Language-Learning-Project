@@ -42,6 +42,7 @@ public class ProfileController implements Initializable {
         "                        Current Language Track: "+lang+
         "                        Current Stage: "+stage);
     }
+    
 
     @FXML
     private void switchToLearn() throws IOException {

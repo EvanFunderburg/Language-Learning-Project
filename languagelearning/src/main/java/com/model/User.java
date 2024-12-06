@@ -439,11 +439,11 @@ public class User {
         }
     }
     /**
-     * Method to show top five struggle words
+     * Method to show struggle words
      */
     public String showStruggleList() {
         String txt = "";
-        for (int i = 0; i < this.struggleList.size() && i<5; i++) {
+        for (int i = 0; i < this.struggleList.size(); i++) {
             txt += "\n";
             txt += "" + struggleList.get(i).getPhrase().get(0).getBaseLanguage().label + " " + struggleList.get(i).getPhrase().get(0).getLearningLanguage().label+"\n";  
             txt += (i + 1) + ". " + this.struggleList.get(i).getDefinition() + " : " + this.struggleList.get(i).toString() + "\n";

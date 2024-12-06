@@ -4,12 +4,13 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="TOP_CENTER" prefHeight="700.0" prefWidth="450.0" spacing="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.StorySelectController">
+<VBox alignment="TOP_CENTER" prefHeight="700.0" prefWidth="450.0" spacing="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.StoryPageController">
    <padding>
       <Insets bottom="10.0" left="10.0" right="10.0" top="30.0" />
    </padding>
@@ -17,20 +18,20 @@
       <URL value="@styles.css" />
    </stylesheets>
    <children>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text= fx:id="lbl_title">
+      <Text fx:id="txt_title" strokeType="OUTSIDE" strokeWidth="0.0" text="">
          <VBox.margin>
             <Insets />
          </VBox.margin></Text>
-      <ImageView fitHeight="272.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true" fx:id = "image"/>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url= "@images/goldi.png" />
+            <Image url="@images/Screenshot%202022-03-30%20184850.png" />
          </image>
       </ImageView>
-      <TextArea prefHeight="313.0" prefWidth="430.0" text= fx:id="story_txt" wrapText="true" />
+      <TextArea fx:id="story_txt" editable="false" prefHeight="313.0" prefWidth="430.0" text="" wrapText="true" />
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="150.0">
          <children>
-            <Button mnemonicParsing="false" text="EXIT" onAction="#switchToUserHomePage" fx:id="homepage"/>
-            <Button mnemonicParsing="false" text="NEXT PAGE" onAction="#switchTonext" fx:id="nextpage"/>
+            <Button fx:id="homepage" mnemonicParsing="false" onAction="#switchToUserHomePage" text="EXIT" />
+            <Button fx:id="nextpage" mnemonicParsing="false" onAction="#switchToNext" text="NEXT PAGE" />
          </children>
       </HBox>
    </children>

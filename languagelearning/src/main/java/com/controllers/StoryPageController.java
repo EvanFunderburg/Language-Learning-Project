@@ -32,7 +32,7 @@ public class StoryPageController  implements Initializable {
         cuStory = facade.getStory(facade.getUser().getStorySelect());
         StoryPage page = cuStory.getStoryPage();
         try{
-            FileInputStream path = new FileInputStream("main\\resources\\com\\language\\images\\gnmoon.png");
+            FileInputStream path = new FileInputStream("stupidfix\\gnmoon.png");
             storypicture = new Image(path);
         }
         catch(Exception e){

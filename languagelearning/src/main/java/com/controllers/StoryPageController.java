@@ -25,7 +25,7 @@ public class StoryPageController  implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
-        facade.readStory
+        String imagestr = facade.getStory(facade.getUser().getStorySelect()).getimage;
        storypicture = new Image(getClass().getResourceAsStream("@images/"+imagestr));
         
         String[] answers = facade.getAnswerChoices().split("#");

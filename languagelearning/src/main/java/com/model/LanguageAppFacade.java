@@ -335,8 +335,12 @@ public class LanguageAppFacade {
             System.out.println("User not found. Please sign in first.");
         }
     }
-    public Story getStory(){
-        Stage stage = 
+    public Story getStory(int input){
+        Stage stage = StageList.getInstance().getStage(input);
+        return stage.getStory();
+    }
+    public void chooseStory(int input){
+        user.changeStorysel(input);
     }
     /**
      * Logs out the current user

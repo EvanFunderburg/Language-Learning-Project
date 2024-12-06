@@ -31,7 +31,13 @@ public class StoryPage {
         int phrasePicker = rand.nextInt(sentences.size());
         this.question = Question.createQuestion(sentences.get(phrasePicker), pageNum);
     }
-    
+    public String getsentenceinstr(){
+        String str = "";
+        for(int i =0; i<sentences.size();i++){
+            str = str + this.sentences.get(i).toString() + " ";
+        }
+        return str;
+    }
     /**
      * Gets the question on the page.
      *

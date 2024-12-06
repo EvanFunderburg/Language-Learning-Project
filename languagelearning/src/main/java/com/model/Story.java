@@ -152,6 +152,9 @@ public class Story {
     public Question getPageQuestion(int pagenum){
         return book.get(pagenum).getQuestion();
     }
+    public StoryPage getStoryPage(){
+        return book.get(page);
+    }
     /**
      * Main method for testing the Story class.
      * This method creates a new story with a single page, a single phrase, and a single word.

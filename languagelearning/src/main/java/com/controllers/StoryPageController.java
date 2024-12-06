@@ -25,20 +25,16 @@ public class StoryPageController  implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
-        String imagestr = facade.getStory(facade.getUser().getStorySelect()).getimage;
-       storypicture = new Image(getClass().getResourceAsStream("@images/"+imagestr));
-        
-        String[] answers = facade.getAnswerChoices().split("#");
-        
-        // System.out.println(facade.getAnswerChoices());
-        lbl_title.setText("ballfart");
-        story_txt.setText("balls in my face llllllllllllllllllllllllllllllllllllllllllllllllllllll morea balss");
-        imageView.setImage();
+        Story cuStory = facade.getStory(facade.getUser().getStorySelect());
+        StoryPage page = cuStory.getStoryPage();
+        storypicture = new Image(getClass().getResourceAsStream("@images/"+page.getImage()));
+        image.setImage(storypicture);
+        lbl_title.setText(cuStory.getTitle());
+        story_txt.setText(page.getsentenceinstr());
+
         
     }
-    public void displayImage(){
-        myImageV
-    } 
+
     @FXML
     void switchToUserHomePage(ActionEvent event) throws IOException {
         App.setRoot("primary");

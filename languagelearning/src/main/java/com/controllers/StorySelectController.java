@@ -10,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
 public class StorySelectController {
+    private LanguageAppFacade facade;
     @FXML private Button btn_red_riding;
     @FXML private Button btn_goldi;
     @FXML private Button btn_3pigs;
@@ -21,7 +22,9 @@ public class StorySelectController {
     }
     @FXML
     void clickedRedRidingStory(ActionEvent event) throws IOException {
-        App.setRoot("primary");
+        facade =LanguageAppFacade.getInstance();
+        facade.chooseStory(1);
+        App.setRoot("storypage");
         
     }
     @FXML

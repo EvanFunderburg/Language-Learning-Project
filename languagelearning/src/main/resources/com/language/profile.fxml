@@ -3,41 +3,120 @@
 <?import java.net.URL?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="450.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.ProfileController">
+<VBox alignment="TOP_CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="450.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.ProfileController">
    <children>
-      <Text fx:id="txt_userdata" strokeType="OUTSIDE" strokeWidth="0.0" text="Username                         Questions Correct:                         Questions Wrong:                      Accuracy:                    Current Stage: " translateY="100.0" wrappingWidth="103.35416793823242">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Profile">
          <font>
-            <Font size="10.0" />
-         </font></Text>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Study Difficult Phrases" textAlignment="CENTER" translateY="135.0" wrappingWidth="242.35416793823242">
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/profile.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text fx:id="lbl_name" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname Lastname" wrappingWidth="222.78125381469727">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txt_username" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Questions Correct: ">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="txt_qcorrect" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Questions Wrong: ">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="txt_qwrong" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Accuracy: ">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="txt_accuracy" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Current Language: ">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="txt_currentStage" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Current Stage: ">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="txt_stage" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button maxHeight="40.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" onAction="#logout" prefHeight="40.0" prefWidth="200.0" text="Logout">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Line endX="100.0" startX="-100.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Study Difficult Phrases" textAlignment="CENTER" wrappingWidth="242.35416793823242">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
-      <Text fx:id="lbl_name" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname Lastname" translateX="48.0" translateY="-200.0" wrappingWidth="222.78125381469727">
+      <Button fx:id="printPageButton" maxHeight="40.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" onAction="#switchToPrint" prefHeight="40.0" prefWidth="200.0" text="Study">
          <font>
-            <Font name="System Bold" size="19.0" />
-         </font></Text>
-      <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" translateX="-120.0" translateY="-150.0">
-         <image>
-            <Image url="@images/profile.jpg" />
-         </image>
-      </ImageView>
-      <Button fx:id="printPageButton" mnemonicParsing="false" onAction="#switchToPrint" prefHeight="48.0" prefWidth="221.0" text="Study" />
-      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
-      <ButtonBar prefHeight="43.0" prefWidth="260.0" translateY="-70.0">
-         <buttons>
-            <Button mnemonicParsing="false" text="Learn" onAction="#switchToLearn"/>
-            <Button mnemonicParsing="false" text="Logout" onAction="#logout"/>
-            <Button mnemonicParsing="false" text="Profile" />
-         </buttons></ButtonBar>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Line endX="100.0" startX="-100.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Button maxHeight="40.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" onAction="#switchToLearn" prefHeight="40.0" prefWidth="200.0" text="Learn">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button maxHeight="40.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Profile">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

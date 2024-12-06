@@ -2,27 +2,26 @@ package com.controllers;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.Locale.LanguageRange;
 import java.util.ResourceBundle;
 
 import com.language.App;
 import com.model.LanguageAppFacade;
 import com.model.User;
-import com.narration.*;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.text.Text;
 
 public class ProfileController implements Initializable {
 
     private LanguageAppFacade facade;
     @FXML private Text lbl_name;
-    @FXML private Text txt_userdata;
+    @FXML private Text txt_username;
+    @FXML private Text txt_qcorrect;
+    @FXML private Text txt_qwrong;
+    @FXML private Text txt_accuracy;
+    @FXML private Text txt_currentStage;
+    @FXML private Text txt_stage;
  
 
     @Override
@@ -36,11 +35,13 @@ public class ProfileController implements Initializable {
             lang = user.getCurrentLanguageTrack().getLearningLanguage().label;
             stage = ""+user.getCurrentLanguageTrack().getCurrentStageLevel();
         }
-        txt_userdata.setText(user.getUsername()+ "             Questions Correct: "+user.getQuestionsCorrect()+
-        "                        Questions Wrong: "+user.getQuestionsWrong()+
-        "                        Accuracy:                    "+user.calculateAccuracy()+
-        "                        Current Language Track: "+lang+
-        "                        Current Stage: "+stage);
+        
+        txt_username.setText(""+user.getUsername());
+        txt_qcorrect.setText(""+user.getQuestionsCorrect());
+        txt_qwrong.setText(""+user.getQuestionsWrong());
+        txt_accuracy.setText(""+user.calculateAccuracy());
+        txt_currentStage.setText(lang);
+        txt_stage.setText(stage);
     }
     
 

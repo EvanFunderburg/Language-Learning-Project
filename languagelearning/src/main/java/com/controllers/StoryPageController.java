@@ -32,7 +32,7 @@ public class StoryPageController  implements Initializable {
         cuStory = facade.getStory(facade.getUser().getStorySelect());
         StoryPage page = cuStory.getStoryPage();
         try{
-            storypicture = new Image(getClass().getResourceAsStream("stupidfix/gnmoon.png"));
+            storypicture = new Image(getClass().getResourceAsStream("stupidfix/"+page.getImage()));
             image.setImage(storypicture);
         }
         catch(Exception e){
@@ -54,10 +54,16 @@ public class StoryPageController  implements Initializable {
         if(cuStory.isStoryComplete()){
             App.setRoot("primary");
         }
-        System.out.println(cuStory.getPage()+ " " + cuStory.getTotalPages());
+;
         cuStory.turnPage();
         StoryPage page = cuStory.getStoryPage();
-        System.out.println(page.getsentenceinstr());
+        try{
+            storypicture = new Image(getClass().getResourceAsStream("stupidfix/"+page.getImage()));
+            image.setImage(storypicture);
+        }
+        catch(Exception e){
+            System.out.print("balls");
+        }
         story_txt.setText(page.getsentenceinstr());
         if(cuStory.isStoryComplete()){
             nextpage.setText("END STORY");

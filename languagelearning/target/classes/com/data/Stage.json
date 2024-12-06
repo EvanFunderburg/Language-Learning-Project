@@ -5,14 +5,14 @@
             "storyID": "9770baf4-f195-4114-b6ae-1bd14c1b80a2",
             "book": [
                 {
-                    "image": "filepath",
+                    "image": "rrh.png",
                     "sentences": [
                         "491dc528-d562-4daa-b00d-74647cc62ba3"
                     ],
                     "pageNum": 1
                 },
                 {
-                    "image": "filepath",
+                    "image": "rrstoryimage1.png",
                     "sentences": [
                         "d0e4b19f-85e9-4afc-999c-441e58b9ab91"
                     ],

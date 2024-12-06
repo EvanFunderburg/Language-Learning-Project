@@ -335,7 +335,9 @@ public class LanguageAppFacade {
             System.out.println("User not found. Please sign in first.");
         }
     }
-
+    public Story getStory(){
+        Stage stage = 
+    }
     /**
      * Logs out the current user
      * @return True if logout successful, false if no user logged in

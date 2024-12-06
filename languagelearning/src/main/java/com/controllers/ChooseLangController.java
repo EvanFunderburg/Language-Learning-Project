@@ -12,12 +12,12 @@ public class ChooseLangController {
     @FXML Label lbl_error;
     @FXML
     private void switchToLearn() throws IOException {
-        App.setRoot("learn");
+        // App.setRoot("learn");
     }
 
     @FXML
     private void switchToProfile() throws IOException {
-        App.setRoot("profile");
+        // App.setRoot("profile");
     }
 
     @FXML

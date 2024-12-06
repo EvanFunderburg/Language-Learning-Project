@@ -46,7 +46,7 @@
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Goodnight Moon" />
-                  <Button mnemonicParsing="false" onAction="#clickedmoonStory" fx:id="btn_gnmoon">
+                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_gnmoon">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -56,7 +56,7 @@
                      </graphic>
                   </Button>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Three Little Pigs" />
-                  <Button mnemonicParsing="false" onAction="#clickedpigsStory" fx:id="btn_3pigs">
+                  <Button mnemonicParsing="false" onAction="#clickedRedRidingStory" fx:id="btn_3pigs">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>

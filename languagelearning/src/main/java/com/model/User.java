@@ -27,7 +27,7 @@ public class User {
     private LanguageTrack currentLanguageTrack;
     private Lesson currentLesson;
     private boolean lessonIsStruggle; // true if currentLesson is a struggle lesson
-
+    private int storyselect;
     
     /**
      * Constructor for creating a new user.
@@ -471,5 +471,11 @@ public class User {
             System.out.println("oops");
         }
         
+    }
+    public void changeStorysel(int num){
+        this.storyselect = num;
+    }
+    public int getStorySelect(){
+        return  storyselect;
     }
 }

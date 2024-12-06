@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import com.language.App;
 import com.model.LanguageAppFacade;
-
+import com.model.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -22,6 +22,7 @@ public class StorySelectController {
     @FXML
     void clickedRedRidingStory(ActionEvent event) throws IOException {
         App.setRoot("primary");
+        
     }
     @FXML
     void clickedgoldiStory(ActionEvent event) throws IOException {

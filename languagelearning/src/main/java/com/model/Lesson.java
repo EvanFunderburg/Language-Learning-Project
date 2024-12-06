@@ -176,7 +176,7 @@ public class Lesson {
      */
     public String getStudySheet(){
         String txt = "LESSON ROADMAP\n\nBase Definition \t \t | Learning definition\n";
-        txt += "Base language: " + this.questions.get(0).getPhrase().getPhrase().get(0).getBaseDefinition() + " Learning Language: " + this.questions.get(0).getPhrase().getPhrase().get(0).getBaseDefinition()+"\n";
+        txt += this.questions.get(0).getPhrase().getPhrase().get(0).getBaseLanguage().label + "\t\t\t\t | " + this.questions.get(0).getPhrase().getPhrase().get(0).getLearningLanguage().label+"\n";
         for (int i = 0; i < this.questions.size(); i++) {
             txt += "\n";
             txt += (i + 1) + ". " + this.questions.get(i).getPhrase().getDefinition() + " : " + this.questions.get(i).getPhrase().toString() + "\n";

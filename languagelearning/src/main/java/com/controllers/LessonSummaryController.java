@@ -21,7 +21,7 @@ public class LessonSummaryController implements Initializable{
     @FXML private Label lbl_score;
     @FXML private Label lbl_feedback;
     @FXML private Label lbl_error;
-    @FXML private Button btn_advanceStage;
+    @FXML private TextArea txt_difficultPhrases;
     private LanguageAppFacade facade;
 
     @Override
@@ -31,9 +31,15 @@ public class LessonSummaryController implements Initializable{
         lbl_score.setText("Score: "+ score);
         // if score is 8 or greater the user advances stages
         // if not they retry the stage and the text on the button is made to match that
-        if(facade.isStruggleLesson())
+        if(facade.isStruggleLesson() && score >= 0)
         {
-            // do something here
+            lbl_feedback.setText("good job practicing your struggle words!");
+
+        }
+        else if(facade.isStruggleLesson())
+        {
+            lbl_feedback.setText("Keep working on your words. You got this!");
+
         }
         else if (score >= 6) {
             lbl_feedback.setText("Well Done. You've earned passage to the next stage!");
@@ -42,12 +48,9 @@ public class LessonSummaryController implements Initializable{
         }
         else {
             lbl_feedback.setText("Well shucks. You're gonna have to redo this stage :(");
-            btn_advanceStage.setText("Retry Stage");
         }
-    }
-    @FXML
-    void buttonToNextLesson(ActionEvent event) throws IOException {
-        App.setRoot("lesson_preview");
+
+        txt_difficultPhrases.setText(facade.getUser().showStruggleList());
     }
 
     @FXML
@@ -59,10 +62,7 @@ public class LessonSummaryController implements Initializable{
     void exitToLearn(ActionEvent event) throws IOException {
         App.setRoot("learn");
     }
-
-    
-
-
-
     
 }
+
+// <Button fx:id="btn_advanceStage" text="Advance to Next Stage" onAction="#buttonToNextLesson"/>

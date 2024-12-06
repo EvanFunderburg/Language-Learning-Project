@@ -17,14 +17,30 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
-public class LessonPreviewController  {
+public class LessonPreviewController implements Initializable {
+    private LanguageAppFacade facade;
+
+
     @FXML private Label lbl_title;
+    @FXML private Label lbl_error;
+    @FXML private TextArea txt_lessonPreview;
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        facade = LanguageAppFacade.getInstance();
+        User user = facade.getUser();
+        
+        if (user != null) {
+            lbl_title.setText("Welcome " + user.getFirstName() + " " + user.getLastName());
+            txt_lessonPreview.setText(facade.startLesson());
+        } else {
+            lbl_error.setText("User data is not available.");
+        }
+        facade.resetLesson();
+    }
      
     @FXML
     void advanceToLesson(ActionEvent event) throws IOException {
-        LanguageAppFacade facade = LanguageAppFacade.getInstance();
-        System.out.println(facade.startLesson());
-        facade.resetLesson();
         App.setRoot(facade.getCurrentQuestionType());
     }
 

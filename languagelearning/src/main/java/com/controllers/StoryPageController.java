@@ -1,5 +1,6 @@
 package com.controllers;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -30,7 +31,13 @@ public class StoryPageController  implements Initializable {
         facade = LanguageAppFacade.getInstance();
         cuStory = facade.getStory(facade.getUser().getStorySelect());
         StoryPage page = cuStory.getStoryPage();
-        storypicture = new Image(getClass().getResourceAsStream("@images/gnmoon.png"));
+        try{
+            FileInputStream path = new FileInputStream("main\\resources\\com\\language\\images\\gnmoon.png");
+            storypicture = new Image(path);
+        }
+        catch(Exception e){
+
+        }
         image.setImage(storypicture);
         txt_title.setText(cuStory.getTitle());
         story_txt.setText(page.getsentenceinstr());

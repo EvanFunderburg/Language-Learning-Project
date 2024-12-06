@@ -6,53 +6,121 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.MatchingController">
    <children>
-      <Label fx:id="lbl_title" layoutX="24.0" layoutY="24.0" text="Welcome" />
-      <Label fx:id="lbl_type" layoutX="24.0" layoutY="24.0" text="Matching" />
-     
-      <Label fx:id="lbl_feedback" layoutX="24.0" layoutY="24.0" text="" />
-      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+      <VBox alignment="TOP_CENTER" maxHeight="480.0" minHeight="480.0" prefHeight="480.0" prefWidth="100.0" spacing="30.0">
          <children>
-               <Button fx:id="btn_base1" onAction="#clickedBtnBase1" text="Base 1" />
-               <Button fx:id="btn_learning1" onAction="#clickedBtnLearning1" text="Learning 1" />
+            <Label fx:id="lbl_question" minWidth="80.0" text="">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" prefHeight="140.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                           <Button fx:id="btn_base1" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnBase1" text="Base 1" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                           <Button fx:id="btn_learning1" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnLearning1" text="Learning 1" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" minWidth="80.0" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                           <Button fx:id="btn_base2" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnBase2" text="Base 2" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>    
+                           <Button fx:id="btn_learning2" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnLearning2" text="Learning 2" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" minWidth="80.0" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                           <Button fx:id="btn_base3" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnBase3" text="Base 3" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                           <Button fx:id="btn_learning3" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnLearning3" text="Learning 3" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" minWidth="80.0" prefHeight="140.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="TOP_CENTER" minWidth="80.0" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                           <Button fx:id="btn_base_answer1" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnBaseAnswer1" style="-fx-background-color: white; -fx-text-fill: black;" text="        " textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                           <Button fx:id="btn_learning_answer1" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnLearningAnswer1" style="-fx-background-color: white; -fx-text-fill: black;" text="        " textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" minWidth="80.0" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                           <Button fx:id="btn_base_answer2" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnBaseAnswer2" style="-fx-background-color: white; -fx-text-fill: black;" text="        " textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                           <Button fx:id="btn_learning_answer2" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnLearningAnswer2" style="-fx-background-color: white; -fx-text-fill: black;" text="        " textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" minWidth="80.0" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                           <Button fx:id="btn_base_answer3" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnBaseAnswer3" style="-fx-background-color: white; -fx-text-fill: black;" text="        " textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                           <Button fx:id="btn_learning_answer3" minHeight="50.0" minWidth="130.0" onAction="#clickedBtnLearningAnswer3" style="-fx-background-color: white; -fx-text-fill: black;" text="        " textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
          </children>
-      </HBox>
-      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
-         <children>
-               <Button fx:id="btn_base2" onAction="#clickedBtnBase2" text="Base 2" />    
-               <Button fx:id="btn_learning2" onAction="#clickedBtnLearning2" text="Learning 2" />
-         </children>
-      </HBox>
-      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
-         <children>
-               <Button fx:id="btn_base3" onAction="#clickedBtnBase3" text="Base 3" />
-               <Button fx:id="btn_learning3" onAction="#clickedBtnLearning3" text="Learning 3" />
-         </children>
-      </HBox>
-      <Label fx:id="lbl_question" layoutX="24.0" layoutY="24.0" text="" />
-      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
-         <children>
-               <Button fx:id="btn_base_answer1" onAction="#clickedBtnBaseAnswer1" text="        " />
-               <Button fx:id="btn_learning_answer1" onAction="#clickedBtnLearningAnswer1" text="        " />
-         </children>
-      </HBox>
-      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
-         <children>
-               <Button fx:id="btn_base_answer2" onAction="#clickedBtnBaseAnswer2" text="        " />
-               <Button fx:id="btn_learning_answer2" onAction="#clickedBtnLearningAnswer2" text="        " />
-         </children>
-      </HBox>
-      <HBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0" spacing="20.0">
-         <children>
-               <Button fx:id="btn_base_answer3" onAction="#clickedBtnBaseAnswer3" text="        " />
-               <Button fx:id="btn_learning_answer3" onAction="#clickedBtnLearningAnswer3" text="        " />
-         </children>
-      </HBox>
+      </VBox>
        
-      <Button fx:id="submitAnswersButton" onAction="#submitAnswers" text="Submit" />
-      <Button fx:id="returnHomeButton" onAction="#switchToUserHomePage" text="Exit" />
+                  <Button fx:id="submitAnswersButton" maxWidth="350.0" minWidth="350.0" onAction="#submitAnswers" prefWidth="350.0" text="Submit">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnHomeButton" maxWidth="350.0" minWidth="350.0" onAction="#switchToUserHomePage" prefWidth="350.0" text="Exit">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

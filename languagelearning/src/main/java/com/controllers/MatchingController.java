@@ -3,27 +3,20 @@ package com.controllers;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.Locale.LanguageRange;
 import java.util.ResourceBundle;
 
 import com.language.App;
 import com.model.LanguageAppFacade;
-import com.model.User;
-import com.narration.*;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 
 public class MatchingController implements Initializable {
 
-    @FXML private Label lbl_title;
-    @FXML private Label lbl_type;
     @FXML private Label lbl_question;
-    @FXML private Label lbl_feedback;
 
     @FXML private Button btn_base1;
     @FXML private Button btn_base2;
@@ -48,8 +41,6 @@ public class MatchingController implements Initializable {
     public void initialize(URL url, ResourceBundle rb){
         facade = LanguageAppFacade.getInstance();
        
-        
-        lbl_title.setText("Welcome " + facade.getUser().getFirstName() + " " + facade.getUser().getLastName());
         lbl_question.setText(facade.getCurrentQuestionString());
         String answers = facade.getAnswerChoices();
         String[] temp = answers.split("!");
@@ -67,7 +58,6 @@ public class MatchingController implements Initializable {
         btn_learning1.setText(learningSet[0]);
         btn_learning2.setText(learningSet[1]);
         btn_learning3.setText(learningSet[2]);
-        lbl_feedback.setText(temp[0] +"\n"+temp[1]);
         lastClickedBase = null;
         lastClickedLearning = null;
         answerOrder = new int[6];

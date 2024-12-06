@@ -18,16 +18,20 @@
       <URL value="@styles.css" />
    </stylesheets>
    <children>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="" fx:id="txt_title">
+      <Text fx:id="txt_title" strokeType="OUTSIDE" strokeWidth="0.0" text="">
          <VBox.margin>
             <Insets />
          </VBox.margin></Text>
-      
-      <TextArea prefHeight="313.0" prefWidth="430.0" text="" fx:id="story_txt" wrapText="true" />
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Screenshot%202022-03-30%20184850.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="story_txt" editable="false" prefHeight="313.0" prefWidth="430.0" text="" wrapText="true" />
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="150.0">
          <children>
-            <Button mnemonicParsing="false" text="EXIT" onAction="#switchToUserHomePage" fx:id="homepage"/>
-            <Button mnemonicParsing="false" text="NEXT PAGE" onAction="#switchToNext" fx:id="nextpage"/>
+            <Button fx:id="homepage" mnemonicParsing="false" onAction="#switchToUserHomePage" text="EXIT" />
+            <Button fx:id="nextpage" mnemonicParsing="false" onAction="#switchToNext" text="NEXT PAGE" />
          </children>
       </HBox>
    </children>

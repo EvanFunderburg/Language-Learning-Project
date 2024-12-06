@@ -30,7 +30,7 @@ public class StoryPageController  implements Initializable {
         facade = LanguageAppFacade.getInstance();
         cuStory = facade.getStory(facade.getUser().getStorySelect());
         StoryPage page = cuStory.getStoryPage();
-        //storypicture = new Image(getClass().getResourceAsStream("@images/"+page.getImage()));
+       // storypicture = new Image(getClass().getResourceAsStream("@images/"+page.getImage()));
         //image.setImage(storypicture);
         txt_title.setText(cuStory.getTitle());
         story_txt.setText(page.getsentenceinstr());

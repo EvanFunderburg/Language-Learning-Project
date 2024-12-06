@@ -64,7 +64,7 @@ public class Story {
      * @return true if the story is complete, false otherwise
      */
     public boolean isStoryComplete(){
-        int nextPage = this.page +1;
+        int nextPage = this.page +2;
         return nextPage>totalpages;
     }
     /**

@@ -30,8 +30,8 @@ public class StoryPageController  implements Initializable {
         facade = LanguageAppFacade.getInstance();
         cuStory = facade.getStory(facade.getUser().getStorySelect());
         StoryPage page = cuStory.getStoryPage();
-       // storypicture = new Image(getClass().getResourceAsStream("@images/"+page.getImage()));
-        //image.setImage(storypicture);
+        storypicture = new Image(getClass().getResourceAsStream("@images/gnmoon.png"));
+        image.setImage(storypicture);
         txt_title.setText(cuStory.getTitle());
         story_txt.setText(page.getsentenceinstr());
 
@@ -47,6 +47,7 @@ public class StoryPageController  implements Initializable {
         if(cuStory.isStoryComplete()){
             App.setRoot("primary");
         }
+        System.out.println(cuStory.getPage()+ " " + cuStory.getTotalPages());
         cuStory.turnPage();
         StoryPage page = cuStory.getStoryPage();
         System.out.println(page.getsentenceinstr());

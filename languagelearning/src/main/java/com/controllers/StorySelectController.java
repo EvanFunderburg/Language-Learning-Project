@@ -29,7 +29,9 @@ public class StorySelectController {
     }
     @FXML
     void clickedgoldiStory(ActionEvent event) throws IOException {
-        App.setRoot("primary");
+        facade =LanguageAppFacade.getInstance();
+        facade.chooseStory(2);
+        App.setRoot("storypage");
     }
     @FXML
     void clickedmoonStory(ActionEvent event) throws IOException {

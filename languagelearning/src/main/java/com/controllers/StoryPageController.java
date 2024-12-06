@@ -44,11 +44,17 @@ public class StoryPageController  implements Initializable {
     }
     @FXML
     void switchToNext(ActionEvent event) throws IOException {
-        facade = LanguageAppFacade.getInstance();
+        if(cuStory.isStoryComplete()){
+            App.setRoot("primary");
+        }
         cuStory.turnPage();
         StoryPage page = cuStory.getStoryPage();
         System.out.println(page.getsentenceinstr());
         story_txt.setText(page.getsentenceinstr());
+        if(cuStory.isStoryComplete()){
+            nextpage.setText("END STORY");
+            System.out.println("BALLLSSS");
+        }
     }
     
 }

@@ -11,11 +11,7 @@
 
 <VBox alignment="CENTER" prefHeight="555.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.PrintController">
    <children>
-      <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="back" translateY="0.0" onAction="#goBack">
-         <font>
-            <Font name="System Regular" size="22.0" />
-         </font>
-      </Button>
+      <Button mnemonicParsing="false" onAction="#goBack" prefHeight="35.0" prefWidth="70.0" text="back" translateX="-170.0" />
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Difficult Phrases" textAlignment="CENTER" wrappingWidth="199.35416793823242">
          <font>
             <Font name="System Bold" size="20.0" />
@@ -26,7 +22,7 @@
             <Font size="12.0" />
          </font>
       </TextArea>
-      <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="221.0" text="Print" translateY="225.0">
+      <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="221.0" text="Print">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>

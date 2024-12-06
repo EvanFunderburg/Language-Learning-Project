@@ -16,12 +16,15 @@
    </padding>
    <stylesheets>
       <URL value="@styles.css" />
-   </styleshee      <Text fx:id="txt_title" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+   </stylesheets>
+   <children>
+      <Text fx:id="txt_title" strokeType="OUTSIDE" strokeWidth="0.0" text="">
          <VBox.margin>
             <Insets />
          </VBox.margin></Text>
-      <ImageView f      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-           <Image url="@images/Screenshot%202022-03-30%20184850.png" />
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Screenshot%202022-03-30%20184850.png" />
          </image>
       </ImageView>
       <TextArea fx:id="story_txt" editable="false" prefHeight="313.0" prefWidth="430.0" text="" wrapText="true" />
@@ -29,8 +32,6 @@
          <children>
             <Button fx:id="homepage" mnemonicParsing="false" onAction="#switchToUserHomePage" text="EXIT" />
             <Button fx:id="nextpage" mnemonicParsing="false" onAction="#switchToNext" text="NEXT PAGE" />
-oNext" fx:id="nextpage"/>
-xtpage"/>
          </children>
       </HBox>
    </children>

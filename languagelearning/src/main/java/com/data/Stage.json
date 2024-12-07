@@ -38,14 +38,14 @@
             "storyID": "9770baf4-f195-4114-b6ae-1bd14c1b80a2",
             "book": [
                 {
-                    "image": "filepath",
+                    "image": "goldilocks.png",
                     "sentences": [
                         "8d085e98-d4dd-46d3-907a-e1324d1de4da"
                     ],
                     "pageNum": 1
                 },
                 {
-                    "image": "filepath",
+                    "image": "goldi2.png",
                     "sentences": [
                         "0868a44e-8364-49f3-acb9-81bd91fd7057"
                     ],

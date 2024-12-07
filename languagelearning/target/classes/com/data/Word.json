@@ -1270,5 +1270,701 @@
         "phonetics": "phonetics",
         "baseLanguage": "ENG",
         "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "8a6fe34f-bfe1-4212-aa88-77d0bddd70b0",
+        "learningDefinition": "Es",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "488154af-bc27-4940-943d-a03a12ba74dd",
+        "learningDefinition": "einmal",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "7287d797-1f33-489b-8c82-449439af68bf",
+        "learningDefinition": "kleines",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d010cab3-14b7-43ef-9e9d-46ef836a2803",
+        "learningDefinition": "M\u201Edchen",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "35724b1c-36ec-4247-93d7-355311e07a61",
+        "learningDefinition": "namens",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "eae04f01-9c12-4275-a58c-535ebca44d06",
+        "learningDefinition": "Goldlockchen,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "16140b64-deb4-4e94-97f4-89a69fd25495",
+        "learningDefinition": "spazieren",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "bef48000-a569-403e-8d67-7f0a2d1fb278",
+        "learningDefinition": "ging.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "40228106-4691-403c-8ac2-daa1a028a16a",
+        "learningDefinition": "leuchtend",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "997869c3-55f5-47ac-8f75-77a8a7ab10eb",
+        "learningDefinition": "goldenes",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "686a7569-5a9a-4b31-8da4-e6ec59df3ad9",
+        "learningDefinition": "Haar",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "9afee630-ccb4-4ba3-8a01-e3db8ee85d56",
+        "learningDefinition": "liebte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "0910f664-bdbe-45d5-83c9-5d5f2b07ed1d",
+        "learningDefinition": "es,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "597b3243-0280-4b54-8386-207cdd8cb124",
+        "learningDefinition": "Gegend",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "5ca6af2a-eb31-4bea-b9cb-81881d668e81",
+        "learningDefinition": "erkunden.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "c8c49f79-0104-41d8-ac4e-3933bc9fe834",
+        "learningDefinition": "tiefer",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "8ae19410-9ede-4667-bbc3-ae7b12dcadaa",
+        "learningDefinition": "wanderte,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "016d5e31-7e0f-43e1-8b21-ee17d44ae8a0",
+        "learningDefinition": "sah",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "782cb6c2-f550-4bc2-ab53-72658752cd82",
+        "learningDefinition": "gemutliches",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "50250557-0a5e-4d23-b5fb-91d198c9df99",
+        "learningDefinition": "Haus.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "70305489-414a-4601-b50d-0cc38247e174",
+        "learningDefinition": "Neugierig",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "8fdf7192-93cb-4bf1-af99-c211681d5986",
+        "learningDefinition": "klopfte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "189a9375-256f-45e8-8537-6999b709bd2f",
+        "learningDefinition": "Tur,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "f901862b-99ff-42a7-be4c-608f8d5414c5",
+        "learningDefinition": "niemand",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "095f77e3-d9b5-4ad8-b9a8-0e790744659f",
+        "learningDefinition": "antwortete,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "05ecde02-b42e-4841-a020-97480daed45a",
+        "learningDefinition": "also",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "cbde2131-2468-4de4-afc1-032469ec768e",
+        "learningDefinition": "ging",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "8b23c72b-3e84-492d-a61b-ae9b339f8a0f",
+        "learningDefinition": "hinein.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "898acfb9-385b-4a17-a33b-50a56ea44c0a",
+        "learningDefinition": "Im",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "de6718cd-d97c-4e55-b715-ba4df3461d3f",
+        "learningDefinition": "fand",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "9c65d09d-0174-4dc0-b6ec-5489871d9104",
+        "learningDefinition": "Goldlockchen",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "a9018316-9a15-45c7-8108-e790bd886756",
+        "learningDefinition": "Tisch",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "26666307-eda7-4b55-9bf4-7e52e35cde1d",
+        "learningDefinition": "Schusseln",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "9fc4c937-adcb-4156-9dac-4275acf00000",
+        "learningDefinition": "Brei.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "15794900-4825-44bf-b80e-d09bce4a8347",
+        "learningDefinition": "probierte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "83a0edaf-cc0f-4bc6-af22-574e24919321",
+        "learningDefinition": "erste",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "1dff30c1-1da3-4cbb-8966-d8e6b47e8a9b",
+        "learningDefinition": "Schussel,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "2c12a63f-6a29-468a-8833-05d2b54d6ea0",
+        "learningDefinition": "heiss.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "c8a49417-6967-4224-a82a-c91527793610",
+        "learningDefinition": "Die",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "da09603e-fb38-4cb2-9258-f1f5e08f9139",
+        "learningDefinition": "zweite",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "8488c649-a5dc-404b-bbab-4575845d23e8",
+        "learningDefinition": "Schussel",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "9b6cec83-ed85-454b-9320-8868c01fc5c0",
+        "learningDefinition": "kalt.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "ba614d0b-9db1-4219-926c-1553c9c307bd",
+        "learningDefinition": "dritte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "dd942f14-ca0e-4fd3-be00-d76e7ec09f42",
+        "learningDefinition": "probierte,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "b9c2d1c9-7c95-415f-acbd-7220378e8bcc",
+        "learningDefinition": "genau",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "9072994f-2af7-43e9-a5b3-48417bb9ed59",
+        "learningDefinition": "richtig,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "f72177a3-83b7-4907-99f0-642187be9cd9",
+        "learningDefinition": "ass",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "3e86e129-a88a-48bd-840c-e0987720b8ee",
+        "learningDefinition": "alles",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "7a7ec498-3acd-41b1-b155-56bf915c1023",
+        "learningDefinition": "auf.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": "x"
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "00cee6eb-01a3-43dc-9b05-61449edf34f5",
+        "learningDefinition": "nachstes",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "96ae5cd6-7841-4667-bc81-f716bd453eff",
+        "learningDefinition": "f?hlte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "b25c9ee5-3fb7-4099-8e63-9ae17dd5f876",
+        "learningDefinition": "mude",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "3e4787a1-fd7c-408f-b55c-68b072a0321b",
+        "learningDefinition": "suchte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "0103b6ca-8ed7-4bce-ba34-a1dbf2d17289",
+        "learningDefinition": "nach",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "72802358-2504-438f-ba2b-7eed8441886f",
+        "learningDefinition": "Ausruhen.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "6889fde8-cc50-4728-9607-145b2a6ae562",
+        "learningDefinition": "Stuhle.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "fe1dc12c-c1d2-4021-98ed-9d382624272e",
+        "learningDefinition": "gross,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "72b203c8-919b-4fb3-88af-bb31c505c27e",
+        "learningDefinition": "klein,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "59e3bcdc-5a55-4cc6-8caa-342a72e89e69",
+        "learningDefinition": "richtig.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "fd625fbd-0145-4776-ba8a-2058a44403e2",
+        "learningDefinition": "Nachdem",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "8bdbd774-0254-4a7e-af0c-e993230adc25",
+        "learningDefinition": "kleinen",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "30096d81-fcb2-4c99-a469-e7705378fcf0",
+        "learningDefinition": "Stuhl",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "58421d71-40b6-4a8a-a6f9-fe4ca4911a3a",
+        "learningDefinition": "zerbrochen",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "fe5ba483-c690-4f39-834a-72ae3feeb701",
+        "learningDefinition": "hatte,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "5fc07412-749c-44e8-aef8-1f024932c5bf",
+        "learningDefinition": "oben,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "c90155b0-b917-42ab-bfdd-e3726b36ae25",
+        "learningDefinition": "Betten",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "341861dc-6c05-4fb9-9e0f-afbf8b1993a0",
+        "learningDefinition": "suchen.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "661151a8-0934-4c16-be8a-affabd284c14",
+        "learningDefinition": "Einer",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "601d20fc-bcd2-4bd7-9fb6-3740a152447a",
+        "learningDefinition": "hart,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "705dd4fb-5397-4d01-8e86-692d2b3ac4da",
+        "learningDefinition": "anderer",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "1351fa6c-58bc-4c98-8dbd-dde5a0ee5266",
+        "learningDefinition": "weich,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "4c3508ba-3e4b-47fe-b9dd-4280495975f1",
+        "learningDefinition": "letzte",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "ab5a48d0-16f0-410d-ab86-b25137d75212",
+        "learningDefinition": "schlief",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "346e85e5-f6b4-4894-b01e-17ea875deb12",
+        "learningDefinition": "ein,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "b139c37a-27b8-4fa9-a4b2-6b3883e4635d",
+        "learningDefinition": "bald",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d151ccad-1aae-4d98-a1ae-f9457a31d9ec",
+        "learningDefinition": "kamen",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "f2ac3c72-88c1-4b09-af0a-b6321ba62e71",
+        "learningDefinition": "Baren,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "eba4d9d4-feb5-400f-9eb0-053a49925518",
+        "learningDefinition": "dort",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "41b8aee1-6040-4e8a-8d6f-149191c2157f",
+        "learningDefinition": "lebten,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d415d1c7-39e8-4820-bd4e-6df8456933e7",
+        "learningDefinition": "Hause!",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "5b29d201-32b2-4e42-a46c-9cc51a1f0aaa",
+        "learningDefinition": "Aus",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "816b0b07-641f-45ff-8c31-7f82c54f9bb6",
+        "learningDefinition": "Angst",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "fc589531-37f6-4065-b10b-49ea7b3d2c8b",
+        "learningDefinition": "davon,",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "d90ca0b9-fb1c-47b6-b6b1-1fd1325c269e",
+        "learningDefinition": "Baren",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "6bc98661-9487-4560-8fdd-8f751048bfb5",
+        "learningDefinition": "nie",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "ce4da9ba-f6f9-44dc-b39b-35bfb6281980",
+        "learningDefinition": "wieder",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
+    },
+    {
+        "learningLanguage": "GER",
+        "wordID": "9fd1dc32-5fdf-47be-be03-6ebac01e15d0",
+        "learningDefinition": "belastigen.",
+        "phonetics": "phonetics",
+        "baseLanguage": "ENG",
+        "baseDefinition": ""
     }
 ]
